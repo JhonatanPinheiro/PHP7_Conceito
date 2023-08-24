@@ -75,4 +75,86 @@ body{
 
 .modulos{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.modulo{
+    flex-basis: 32%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.modulo > h3{
+    margin: 0px;
+    color: #FFF;
+    font-weight: 300;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    background: #000;
+
+}
+
+.modulo > ul{
+    margin: 0px;
+    padding: 10px;
+    list-style: none;
+
+}
+
+.modulo > ul > li{
+    padding: 10px;
+    font-size: 1.3rem;
+    cursor: pointer;
+
+}
+
+.modulo ul li:hover{
+    display: flex;
+    text-decoration: none;
+    color: #222;
+
+}
+
+.modulo > ul > li:hover{
+    background-color: #03ff2d;
+    border: 1px double  #000;
+}
+
+.modulo.verde {
+    border: 3px solid #05dd0c;
+}
+
+
+.modulo.vermelho {
+    border: 3px solid rgb(255, 2, 2);
+}
+
+.modulo.azul {
+    border: 3px solid rgb(19, 2, 255);
+}
+
+
+.modulo.roxo {
+    border: 3px solid rgb(133, 2, 255);
+}
+
+.modulo.laranja {
+    border: 3px solid rgb(255, 145, 2);
+}
+
+.modulo.verde-escuro {
+    border: 3px solid rgb(9, 99, 24);
+}
+
+.modulo.azul-escuro {
+    border: 3px solid rgb(4, 28, 165);
+}
+
+.modulo.roxo-escuro {
+    border: 3px solid rgb(75, 3, 143);
+}
+
+.modulo.azul-oceano {
+    border: 3px solid rgb(0, 247, 255);
 }
