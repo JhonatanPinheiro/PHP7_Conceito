@@ -18,15 +18,14 @@
     </header>
     <div class="conteudo">
         <nav class="modulos">
-            <div class="modulo verde">
+            <div class="modulo mod-1">
                 <h3> Módulo 01</h3>
                 <ul>
                     <li><a href="exercicio.php?dir=basico&file=ola">Olá PHP</a></li>
-                    <li><a href="#">Exercício B</a></li>
-                    <li><a href="#">Exercício C</a></li>
+                    <li><a href="exercicio.php?dir=basico&file=html">HTML</a></li>
                 </ul>
             </div>
-            <div class="modulo vermelho">
+            <div class="modulo mod-2">
                 <h3> Módulo 02</h3>
                 <ul>
                     <li><a href="#">Exercício A</a></li>
@@ -34,7 +33,7 @@
                     <li><a href="#">Exercício C</a></li>
                 </ul>
             </div>
-            <div class="modulo azul">
+            <div class="modulo mod-3">
                 <h3> Módulo 03</h3>
                 <ul>
                     <li><a href="#">Exercício A</a></li>
@@ -42,7 +41,7 @@
                     <li><a href="#">Exercício C</a></li>
                 </ul>
             </div>
-            <div class="modulo roxo">
+            <div class="modulo mod-4">
                 <h3> Módulo 04</h3>
                 <ul>
                     <li><a href="#">Exercício A</a></li>
@@ -50,7 +49,7 @@
                     <li><a href="#">Exercício C</a></li>
                 </ul>
             </div>
-            <div class="modulo laranja">
+            <div class="modulo mod-5">
                 <h3> Módulo 05</h3>
                 <ul>
                     <li><a href="#">Exercício A</a></li>
@@ -58,7 +57,7 @@
                     <li><a href="#">Exercício C</a></li>
                 </ul>
             </div>
-            <div class="modulo verde-escuro">
+            <div class="modulo mod-6">
                 <h3> Módulo 06</h3>
                 <ul>
                     <li><a href="#">Exercício A</a></li>
@@ -66,7 +65,7 @@
                     <li><a href="#">Exercício C</a></li>
                 </ul>
             </div>
-            <div class="modulo azul-escuro">
+            <div class="modulo mod-7">
                 <h3> Módulo 07</h3>
                 <ul>
                     <li><a href="#">Exercício A</a></li>
@@ -74,7 +73,7 @@
                     <li><a href="#">Exercício C</a></li>
                 </ul>
             </div>
-            <div class="modulo roxo-escuro">
+            <div class="modulo mod-8">
                 <h3> Módulo 08</h3>
                 <ul>
                     <li><a href="#">Exercício A</a></li>
@@ -82,7 +81,7 @@
                     <li><a href="#">Exercício C</a></li>
                 </ul>
             </div>
-            <div class="modulo azul-oceano">
+            <div class="modulo mod-9">
                 <h3> Módulo 09</h3>
                 <ul>
                     <li><a href="#">Exercício A</a></li>

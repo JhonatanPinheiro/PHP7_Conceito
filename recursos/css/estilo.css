@@ -15,7 +15,7 @@ body{
 
 .cabecalho{
     grid-area: cabecalho;
-    background-color: blue;
+    background-color: rgb(10, 10, 10);
     color: #FFF;
     display: flex;
     flex-direction: column;
@@ -109,53 +109,55 @@ body{
 .modulo ul li:hover{
     display: flex;
     text-decoration: none;
-    color: #222;
+    color: #000;
 
 }
 
 .modulo {
-    background:#000;
+    background:#ffedbc;
+    font-weight: 900;
 }
 
 .modulo > ul > li:hover{
-    background-color: #03ff2d;
+    background-color: #FFF;
     border: 1px double  #000;
+    border: 2px outset #FFF;
 }
 
-.modulo.verde {
-    border: 3px solid #05dd0c;
-}
-
-
-.modulo.vermelho {
-    border: 3px solid rgb(255, 2, 2);
-}
-
-.modulo.azul {
-    border: 3px solid rgb(19, 2, 255);
+.modulo.mod-1 {
+    border: 3px solid #000;
 }
 
 
-.modulo.roxo {
-    border: 3px solid rgb(133, 2, 255);
+.modulo.mod-2{
+    border: 3px solid #000;
 }
 
-.modulo.laranja {
-    border: 3px solid rgb(255, 145, 2);
+.modulo.mod-3 {
+    border: 3px solid #000;
 }
 
-.modulo.verde-escuro {
-    border: 3px solid rgb(9, 99, 24);
+
+.modulo.mod-4 {
+    border: 3px solid #000;
 }
 
-.modulo.azul-escuro {
-    border: 3px solid rgb(4, 28, 165);
+.modulo.mod-5 {
+    border: 3px solid #000;
 }
 
-.modulo.roxo-escuro {
-    border: 3px solid rgb(75, 3, 143);
+.modulo.mod-6 {
+    border: 3px solid #000;
 }
 
-.modulo.azul-oceano {
-    border: 3px solid rgb(0, 247, 255);
+.modulo.mod-7 {
+    border: 3px solid #000;
+}
+
+.modulo.mod-8 {
+    border: 3px solid #000;
+}
+
+.modulo.mod-9 {
+    border: 3px solid #000;
 }
