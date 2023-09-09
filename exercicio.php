@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,24 +18,18 @@
         <h2>Visualização do Exercício</h2>
     </header>
     <nav class="navegacao">
-        <a href=<?="/PHP7-Conceito/{$_GET['dir']}/{$_GET['file']}.php"?> class="botao-sem-formatacao">Sem formatação </a>
+        <a href=<?= "/PHP7-Conceito/{$_GET['dir']}/{$_GET['file']}.php" ?> class="botao-sem-formatacao">Sem formatação </a>
         <a href="/PHP7-Conceito/" class="botao-voltar">Voltar</a>
     </nav>
     <div class="conteudo">
-        <?php 
-            // include($_GET['dir'] . "/" . $_GET['file'] . ".php" );
-            include(__DIR__."/{$_GET['dir']}/{$_GET['file']}.php");
+        <?php
+        // include($_GET['dir'] . "/" . $_GET['file'] . ".php" );
+        include(__DIR__ . "/{$_GET['dir']}/{$_GET['file']}.php");
         ?>
     </div>
-
 </body>
 <footer class="rodape">
     Jhonatan Pinheiro &copy; <?= date('Y-M-D')  ?>
 </footer>
-
-
-
-
-
 
 </html>
