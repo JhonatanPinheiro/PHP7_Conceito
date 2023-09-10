@@ -25,6 +25,7 @@
                     <li><a href="exercicio.php?dir=basico&file=html">Integrando HTML</a></li>
                     <li><a href="exercicio.php?dir=basico&file=css">Integrando CSS</a></li>
                     <li><a href="exercicio.php?dir=basico&file=comentarios">Comentarios PHP</a></li>
+                    <li><a href="exercicio.php?dir=basico&file=desafio">DESAFIO</a></li>
                 </ul>
             </div>
             <div class="modulo mod-2">
