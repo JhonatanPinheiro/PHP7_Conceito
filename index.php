@@ -19,19 +19,19 @@
     <div class="conteudo">
         <nav class="modulos">
             <div class="modulo mod-1">
-                <h3> Módulo 01</h3>
+                <h3> Módulo 1 - Básicos </h3>
                 <ul>
                     <li><a href="exercicio.php?dir=basico&file=ola">Olá PHP</a></li>
                     <li><a href="exercicio.php?dir=basico&file=html">Integrando HTML</a></li>
                     <li><a href="exercicio.php?dir=basico&file=css">Integrando CSS</a></li>
                     <li><a href="exercicio.php?dir=basico&file=comentarios">Comentarios PHP</a></li>
-                    <li><a href="exercicio.php?dir=basico&file=desafio">DESAFIO</a></li>
+                    <li><a href="exercicio.php?dir=basico&file=desafio">DESAFIO 01</a></li>
                 </ul>
             </div>
             <div class="modulo mod-2">
-                <h3> Módulo 02</h3>
+                <h3> Módulo 02 - Tipos </h3>
                 <ul>
-                    <li><a href="#">Exercício A</a></li>
+                    <li><a href="exercicio.php?dir=tipos&file=int">Tipos - INT</a></li>
                     <li><a href="#">Exercício B</a></li>
                     <li><a href="#">Exercício C</a></li>
                 </ul>
