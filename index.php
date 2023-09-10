@@ -34,6 +34,7 @@
                     <li><a href="exercicio.php?dir=tipos&file=int">Tipos - INT</a></li>
                     <li><a href="exercicio.php?dir=tipos&file=float">Tipos - FLOAT</a></li>
                     <li><a href="exercicio.php?dir=tipos&file=aritmeticas">Operações Aritméticas</a></li>
+                    <li><a href="exercicio.php?dir=tipos&file=desafio-procedencia">DESAFIO 01 - Ordem de Procedencia</a></li>
                 </ul>
             </div>
             <div class="modulo mod-3">
