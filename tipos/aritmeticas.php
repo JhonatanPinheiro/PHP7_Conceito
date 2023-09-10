@@ -23,12 +23,4 @@ echo 4 ** 2, '<br>'; # Operador para fazer eleveção. 4²
 # 3 -> / OU *
 # 4 -> % 
 # 5 ->  + OU -
-
-
-
-echo '<br>';
-
-echo '<br>';
-
-echo '<br>';
 ?>
