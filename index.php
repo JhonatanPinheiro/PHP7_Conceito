@@ -37,6 +37,7 @@
                     <li><a href="exercicio.php?dir=tipos&file=desafio-procedencia">DESAFIO 01 - Ordem de Procedencia</a></li>
                     <li><a href="exercicio.php?dir=tipos&file=string">Tipo String</a></li>
                     <li><a href="exercicio.php?dir=tipos&file=desafio_string">DESAFIO 2 - String </a></li>
+                    <li><a href="exercicio.php?dir=tipos&file=tipo-booleano"> Tipo Booleano </a></li>
                 </ul>
             </div>
             <div class="modulo mod-3">
