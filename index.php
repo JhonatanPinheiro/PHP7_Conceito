@@ -46,6 +46,7 @@
                 <ul>
                     <li><a href="exercicio.php?dir=variaveis&file=basico">Básico - Variáveis 1</a></li>
                     <li><a href="exercicio.php?dir=variaveis&file=basico2">Básico - Variáveis 2</a></li>
+                    <li><a href="exercicio.php?dir=variaveis&file=desafio_equacao">Desafio 1 - Equação </a></li>
                     <li><a href="#">Exercício B</a></li>
                     <li><a href="#">Exercício C</a></li>
                 </ul>
