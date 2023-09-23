@@ -44,7 +44,8 @@
             <div class="modulo mod-3">  
                 <h3>  Módulo 03 - Variavéis </h3>
                 <ul>
-                    <li><a href="exercicio.php?dir=variaveis&file=basico">Básico - Variáveis</a></li>
+                    <li><a href="exercicio.php?dir=variaveis&file=basico">Básico - Variáveis 1</a></li>
+                    <li><a href="exercicio.php?dir=variaveis&file=basico2">Básico - Variáveis 2</a></li>
                     <li><a href="#">Exercício B</a></li>
                     <li><a href="#">Exercício C</a></li>
                 </ul>
