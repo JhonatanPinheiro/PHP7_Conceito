@@ -38,9 +38,10 @@
                     <li><a href="exercicio.php?dir=tipos&file=string">Tipo String</a></li>
                     <li><a href="exercicio.php?dir=tipos&file=desafio_string">DESAFIO 2 - String </a></li>
                     <li><a href="exercicio.php?dir=tipos&file=tipo-booleano"> Tipo Booleano </a></li>
+                    <li><a href="exercicio.php?dir=tipos&file=conversoes"> Conversões </a></li>
                 </ul>
             </div>
-            <div class="modulo mod-3">
+            <div class="modulo mod-3">  
                 <h3> Módulo 03</h3>
                 <ul>
                     <li><a href="#">Exercício A</a></li>
