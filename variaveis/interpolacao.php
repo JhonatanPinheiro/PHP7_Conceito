@@ -12,10 +12,4 @@ $objeto = 'caneta';
 echo "<br>Eu tenho 5 $objeto";
 echo "<br>Eu tenho 5 {$objeto}s.";
 
-
-
-
-
-
-
 ?>
