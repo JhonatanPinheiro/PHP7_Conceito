@@ -50,6 +50,7 @@
                     <li><a href="exercicio.php?dir=variaveis&file=atribuicoes">Atribuições </a></li>
                     <li><a href="exercicio.php?dir=variaveis&file=interpolacao">Interpolação </a></li>
                     <li><a href="exercicio.php?dir=variaveis&file=variaveis_variaveis">Variavéis-Variavéis </a></li>
+                    <li><a href="exercicio.php?dir=variaveis&file=desafio_variaveis_variaveis">DESAFIO 01 - Variáveis Variáveis</a></li>
                     <li><a href="#">Exercício B</a></li>
                     <li><a href="#">Exercício C</a></li>
                 </ul>
