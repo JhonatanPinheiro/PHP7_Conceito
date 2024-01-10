@@ -61,6 +61,7 @@
                 <h3> Módulo 04 - Estruturas de Controle</h3>
                 <ul>
                     <li><a href="exercicio.php?dir=estruturas_controles&file=if_else"> IF/ELSE #01</a></li>
+                    <li><a href="exercicio.php?dir=estruturas_controles&file=operadores_relacionais"> Operadores Relacionais </a></li>
                     <li><a href="#">Exercício B</a></li>
                     <li><a href="#">Exercício C</a></li>
                 </ul>
