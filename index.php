@@ -41,8 +41,8 @@
                     <li><a href="exercicio.php?dir=tipos&file=conversoes"> Conversões </a></li>
                 </ul>
             </div>
-            <div class="modulo mod-3">  
-                <h3>  Módulo 03 - Variavéis </h3>
+            <div class="modulo mod-3">
+                <h3> Módulo 03 - Variavéis </h3>
                 <ul>
                     <li><a href="exercicio.php?dir=variaveis&file=basico">Básico - Variáveis 1</a></li>
                     <li><a href="exercicio.php?dir=variaveis&file=basico2">Básico - Variáveis 2</a></li>
@@ -58,9 +58,9 @@
                 </ul>
             </div>
             <div class="modulo mod-4">
-                <h3> Módulo 04</h3>
+                <h3> Módulo 04 - Estruturas de Controle</h3>
                 <ul>
-                    <li><a href="#">Exercício A</a></li>
+                    <li><a href="exercicio.php?dir=estruturas_controles&file=if_else"> IF/ELSE #01</a></li>
                     <li><a href="#">Exercício B</a></li>
                     <li><a href="#">Exercício C</a></li>
                 </ul>
