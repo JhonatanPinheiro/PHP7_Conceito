@@ -62,8 +62,7 @@
                 <ul>
                     <li><a href="exercicio.php?dir=estruturas_controles&file=if_else"> IF/ELSE #01</a></li>
                     <li><a href="exercicio.php?dir=estruturas_controles&file=operadores_relacionais"> Operadores Relacionais </a></li>
-                    <li><a href="#">Exercício B</a></li>
-                    <li><a href="#">Exercício C</a></li>
+                    <li><a href="exercicio.php?dir=estruturas_controles&file=desafio_pi"> Desafio 01 - PI </a></li>
                 </ul>
             </div>
             <div class="modulo mod-5">
