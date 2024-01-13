@@ -24,7 +24,7 @@ echo var_dump(!false);
 echo '<br>';
 echo var_dump(!true);
 echo '<br>';
-echo '_____________________________________';
+echo "<div class='divisor'>_____________________________________</div>";
 echo '<br>';
 
 $idade = 65;
@@ -37,3 +37,11 @@ if($idade < 18){
 }
 
 ?>
+
+<style>
+    .divisor{
+        margin-top: 4px;
+        background-color: #FFF;
+    }
+
+</style>
