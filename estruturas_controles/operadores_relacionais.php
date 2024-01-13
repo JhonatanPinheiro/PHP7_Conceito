@@ -61,11 +61,9 @@ var_dump(!!" ");
 echo '<br>';
 
 ?>
-
 <style>
     .divisor{
         margin-top: 4px;
         background-color: #FFF;
     }
-
 </style>
