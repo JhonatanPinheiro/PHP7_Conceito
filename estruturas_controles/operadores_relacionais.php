@@ -36,6 +36,30 @@ if($idade < 18){
     echo"Terceira idade = $idade <br>";
 }
 
+
+echo '<p> Spaceship</p>';
+# É muito utilizado para fazer uma comparação/ordenação sobre números . Para saber se o números é maior ou menor entre outro numero.
+#Como funciona: Quando o primeiro número (da esquerda: 5) ele é maior que o da direita (3).
+# Numero da esquerda é maior que o da direira irá voltar o número  1. Pois é verdadeiro 
+# Agora se o número da direita for maior que o da esquerda irá voltar -1 
+# Caso eu coloque o dois numeros iguais esquerda e direita irá voltar 0
+var_dump(5 <=> 3); #retorno = 1
+echo '<br>';
+var_dump(5 <=> 5); #retorno = 0
+echo '<br>';
+var_dump(5 <=> 40); #retorno = -1
+echo '<br>';
+
+echo '<p> Valores pode ser V ou F </p>'; #dupla negação abaixos
+var_dump(!!5); 
+echo '<br>';
+var_dump(!!0);
+echo '<br>';
+var_dump(!!"");
+echo '<br>';
+var_dump(!!" ");
+echo '<br>';
+
 ?>
 
 <style>
