@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link href="../css/style_operador_logico.css" rel="stylesheet">
+        <link href="../css/style_operadores_logicos.css" rel="stylesheet">
     </head>
     <body>
         <div class="title"> Desafio - Operadores Lógicos </div>
