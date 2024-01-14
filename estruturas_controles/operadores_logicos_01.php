@@ -48,6 +48,12 @@ var_dump(true xor false); #true
 var_dump(false xor true); #true
 var_dump(false xor false); #false
 
+echo"<p>Tabela Verdade '=!' (Diferente) </p>"; #É igual a tabela verdade do XOR
+var_dump(true != true); #false
+var_dump(true != false); #true
+var_dump(false != true); #true
+var_dump(false != false); #false
+
 ?>
 <style>
  

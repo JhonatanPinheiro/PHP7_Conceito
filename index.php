@@ -64,6 +64,7 @@
                     <li><a href="exercicio.php?dir=estruturas_controles&file=operadores_relacionais"> Operadores Relacionais </a></li>
                     <li><a href="exercicio.php?dir=estruturas_controles&file=desafio_pi"> Desafio 01 - PI </a></li>
                     <li><a href="exercicio.php?dir=estruturas_controles&file=operadores_logicos_01"> Operadores Lógicos - 01 </a></li>
+                    <li><a href="exercicio.php?dir=estruturas_controles&file=operadores_logicos_02"> Operadores Lógicos - 02 </a></li>
                 </ul>
             </div>
             <div class="modulo mod-5">
