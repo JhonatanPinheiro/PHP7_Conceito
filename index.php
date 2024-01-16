@@ -68,6 +68,7 @@
                     <li><a href="exercicio.php?dir=estruturas_controles&file=GET_POST"> Diferença : GET e POST </a></li>
                     <li><a href="exercicio.php?dir=estruturas_controles&file=desafio_operadores_logicos"> Desafio - Operadores Lógicos </a></li>
                     <li><a href="exercicio.php?dir=estruturas_controles&file=operador_ternario"> Operador Ternário </a></li>
+                    <li><a href="exercicio.php?dir=estruturas_controles&file=switch"> Switch </a></li>
                 </ul>
             </div>
             <div class="modulo mod-5">
