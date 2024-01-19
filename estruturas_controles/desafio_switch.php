@@ -16,6 +16,9 @@
             <option value="milha-km">Milha > KM </option>
             <option value="metro-km">Metro > KM</option>
             <option value="km-metro">KM > Metro</option>
+            <option value="NULL"> - </option>
+            <option value="celsius-fahrenheit">Celsius > Fahrenheit</option>
+            <option value="fahrenheit-celsius">Fahrenheit > Celsius</option>
         </select>
         <button>Calcular</button>
         <!-- <input type="submit" value="Converter"> -->
