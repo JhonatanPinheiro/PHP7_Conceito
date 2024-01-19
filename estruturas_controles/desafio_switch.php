@@ -27,14 +27,11 @@
     <?php
     $valueOption = $_POST['conversao'];
     $valueParam = $_POST['param'];
-    $tipoPrimitivoFloatValuesParam =  floatval($valueParam);
 
     if (!!$valueParam) {
         switch ($valueOption) {
             case 'km-milha':
                 $kmMilha = $valueOption;
-                $valueOptionBooleano = (bool)$valueOption;
-
                 $valueConvertido = $valueParam * 0.621371;
                
                 echo '<br>';
@@ -47,8 +44,6 @@
 
             case 'milha-km':
                 $milhaKm = $valueOption;
-                $valueOptionBooleano = (bool)$valueOption;
-
                 $valueConvertido = $valueParam * 1.60934 ;
                
                 echo '<br>';
@@ -60,8 +55,6 @@
 
             case 'metro-km':
                 $metroKm = $valueOption;
-                $valueOptionBooleano = (bool)$valueOption;
-
                 $valueConvertido = $valueParam / 1000 ;
                
                 echo '<br>';
@@ -73,8 +66,6 @@
 
             case 'km-metro':
                 $kmMetro = $valueOption;
-                $valueOptionBooleano = (bool)$valueOption;
-                
                 $valueConvertido = $valueParam * 1000 .'m' ;
 
                 echo '<br>';
@@ -82,6 +73,28 @@
                 echo '<br>';
                 echo "<span class='negrito'> KM Convertido para Metro:</span> $valueConvertido";
                 echo '<iconify-icon icon="healthicons:walking-outline"></iconify-icon>';
+                break;
+                
+            case 'celsius-fahrenheit':
+                $celsiusFahrenheit = $valueOption; 
+                $valueConvertido = (($valueParam * (9/5)) + 32);
+
+                echo '<br>';
+                echo "<span class='negrito'>Graus Celsius informado:</span> $valueParam ºC" ;
+                echo '<br>';
+                echo "<span class='negrito'> Graus Celsius convertido para Graus Fahrenheit:</span> $valueConvertido ºF &nbsp;";
+                echo '<iconify-icon icon="meteocons:thermometer-fahrenheit" width="100" height="100"></iconify-icon>';
+                break;
+            
+            case 'fahrenheit-celsius':
+                $fahrenheitCelsius = $valueOption; 
+                $valueConvertido = ((($valueParam - 32) * 5/9));
+    
+                echo '<br>';
+                echo "<span class='negrito'>Graus Fahrenheit informado:</span> $valueParam ºF" ;
+                echo '<br>';
+                echo "<span class='negrito'> Graus Fahrenheit convertido para Graus Celsius:</span> $valueConvertido ºC &nbsp;";
+                echo '<iconify-icon icon="meteocons:thermometer-celsius" width="100" height="100"></iconify-icon>';
                 break;
             default:
                 echo "<p class='mensage-warning'><strong>Por favor escolha uma opção para converter os valores!</strong><p/>";
