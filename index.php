@@ -73,9 +73,9 @@
                 </ul>
             </div>
             <div class="modulo mod-5">
-                <h3> Módulo 05</h3>
+                <h3> Módulo 05 - Array </h3>
                 <ul>
-                    <li><a href="#">Exercício A</a></li>
+                    <li><a href="exercicio.php?dir=array&file=array_basico">Básico - Array </a></li>
                     <li><a href="#">Exercício B</a></li>
                     <li><a href="#">Exercício C</a></li>
                 </ul>
