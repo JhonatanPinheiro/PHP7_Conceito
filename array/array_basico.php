@@ -42,6 +42,12 @@
    
     // Essa função pega quantidade / posição de uma string . Pega a possição da palvra que começa + quantidade de caracter que vocÊ quer que pegue
     echo mb_substr($texto,0,4);
+    echo '<br>';
+
+    // Alterando o valor do array na posição 0
+    $lista[0] = 'AAABB';
+    echo $lista[0];
+    echo '<br>';
 
 
 
