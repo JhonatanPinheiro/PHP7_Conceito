@@ -76,6 +76,7 @@
                 <h3> Módulo 05 - Array </h3>
                 <ul>
                     <li><a href="exercicio.php?dir=array&file=array_basico">Básico - Array </a></li>
+                    <li><a href="exercicio.php?dir=array&file=array_map"> Array como Mapas </a></li>
                     <li><a href="#">Exercício B</a></li>
                     <li><a href="#">Exercício C</a></li>
                 </ul>
