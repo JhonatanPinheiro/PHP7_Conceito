@@ -34,6 +34,18 @@
     );
 
     print_r($lista);
+    
+    echo '<br>'; 
+    echo '<br>';
+    
+    #Caso queira adicionar um valor a mais nesse array
+    $lista[] = 'Adicionei um valor nesse array chamado de variável $list';
+    print_r($lista);
+
+    echo '<br>'; 
+    echo '<br>';
+    
+    
 
 
     ?>
