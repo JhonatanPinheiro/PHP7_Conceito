@@ -66,7 +66,45 @@
     var_dump($dados);
     echo '<br>';
     echo '<br> ---------- <br>';
+
     
+    # Para juntar um array devemos utilizar uma função do PHP, pois ao fazer como soma ele não irá funcionar. Até funciona mas precisa tomar cuidado para não sobrescrever os valores das chaves quando é igual
+    $imparesN = [1,3,5,7,9];
+    $paresN = [0,2,4,6,8,10];
+
+    $juntandoArrayNaoFunciona = $imparesN + $paresN;
+
+    print_r($juntandoArrayNaoFunciona);
+    echo '<br>';
+    echo '<br> ---------- <br>';
+
+    # Para juntar um array devemos utilizar uma função do PHP
+    $impares = [1,3,5,7,9];
+    $pares = [0,2,4,6,8,10];
+
+    $juntandoArray = array_merge($impares, $pares); 
+
+    print_r($juntandoArray);
+    echo '<br>';
+    echo '<br> ---------- <br>';
+
+    # Para juntar um array devemos utilizar uma função do PHP, pois ao fazer como soma ele não irá funcionar
+    $imparesOrdem = [1,3,5,7,9];
+    $paresOrdem = [0,2,4,6,8,10];
+    
+    $juntandoArrayOrdem = array_merge($imparesOrdem, $paresOrdem); 
+    
+    echo '<br>Padrão Sem utilizar a função de Ordem <br>';
+    print_r($juntandoArrayOrdem);
+    echo '<br>';
+    echo '<br>Utilizando a função de Ordenação . Cuidado que ele pode fazer a alteração <br>';
+    sort($juntandoArrayOrdem);
+    print_r($juntandoArrayOrdem);
+    echo '<br>';
+    echo '<br> ---------- <br>';
+
+    
+
 
 
        
