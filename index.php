@@ -81,8 +81,8 @@
                     <li><a href="exercicio.php?dir=array&file=operacoes"> Operações </a></li>
                     <li><a href="exercicio.php?dir=array&file=desafio_sorteio"> Desafio do Sorteio </a></li>
                     <li><a href="exercicio.php?dir=array&file=array_multidimensionais"> Array Multidimensionais </a></li>
-                    <li><a href="#">Exercício B</a></li>
-                    <li><a href="#">Exercício C</a></li>
+                    <li><a href="exercicio.php?dir=array&file=arrays_constantes"> Arrays Constantes </a></li>
+                  
                 </ul>
             </div>
             <div class="modulo mod-6">
