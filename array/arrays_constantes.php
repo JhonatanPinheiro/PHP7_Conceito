@@ -23,11 +23,6 @@
     echo '<br>';
     // CIDADES[0] = 'Rio de Janeira';
     // echo '<br>' . CIDADES[1];
-    
-
-
-
-  
     ?>
 <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 </body>
