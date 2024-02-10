@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-
-</head>
+<head></head>
 
 <body>
     <div class="title"> Usando $_POST </div>
@@ -20,11 +18,8 @@
     </form>
     
     <?php
-    print_r($_POST);
-    echo '<br>' .count($_POST);
-
-
-
+        print_r($_POST);
+         echo '<br>' .count($_POST);
     ?>
 <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 </body>

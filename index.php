@@ -84,6 +84,7 @@
                     <li><a href="exercicio.php?dir=array&file=arrays_constantes"> Arrays Constantes </a></li>
                     <li><a href="exercicio.php?dir=array&file=get"> $_GET </a></li>
                     <li><a href="exercicio.php?dir=array&file=post"> $_POST </a></li>
+                    <li><a href="exercicio.php?dir=array&file=comparacoes_arrays"> Comparações entre Arrays </a></li>
                   
                 </ul>
             </div>
