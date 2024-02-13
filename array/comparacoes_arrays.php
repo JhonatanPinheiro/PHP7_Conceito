@@ -23,10 +23,6 @@
         $array3 = [ 'idade' => 20,'nome' => 'Maria'];
         var_dump($array1 != $array3);
         var_dump($array1 !== $array3);
-       
-       
-
-
     ?>
 <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 </body>
