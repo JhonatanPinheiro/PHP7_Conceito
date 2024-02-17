@@ -93,6 +93,7 @@
                 <ul>
                     <li><a href="exercicio.php?dir=estruturas_controles_II&file=laco_for"> Laço For </a></li>
                     <li><a href="exercicio.php?dir=estruturas_controles_II&file=desafio_for"> Desafio For </a></li>
+                    <li><a href="exercicio.php?dir=estruturas_controles_II&file=foreach"> Foreach </a></li>
                     <li><a href="#">Exercício B</a></li>
                     <li><a href="#">Exercício C</a></li>
                 </ul>
