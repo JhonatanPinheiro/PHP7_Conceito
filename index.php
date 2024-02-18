@@ -96,6 +96,7 @@
                     <li><a href="exercicio.php?dir=estruturas_controles_II&file=foreach"> Foreach </a></li>
                     <li><a href="exercicio.php?dir=estruturas_controles_II&file=break_continue"> Break | Continue </a></li>
                     <li><a href="exercicio.php?dir=estruturas_controles_II&file=desafio_impresao"> Desafio Impresão </a></li>
+                    <li><a href="exercicio.php?dir=estruturas_controles_II&file=while_dowhile"> WHILE | DO WHILE </a></li>
                  
                 </ul>
             </div>
