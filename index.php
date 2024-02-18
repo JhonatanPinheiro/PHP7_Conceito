@@ -95,8 +95,8 @@
                     <li><a href="exercicio.php?dir=estruturas_controles_II&file=desafio_for"> Desafio For </a></li>
                     <li><a href="exercicio.php?dir=estruturas_controles_II&file=foreach"> Foreach </a></li>
                     <li><a href="exercicio.php?dir=estruturas_controles_II&file=break_continue"> Break | Continue </a></li>
-                    <li><a href="#">Exercício B</a></li>
-                    <li><a href="#">Exercício C</a></li>
+                    <li><a href="exercicio.php?dir=estruturas_controles_II&file=desafio_impresao"> Desafio Impresão </a></li>
+                 
                 </ul>
             </div>
             <div class="modulo mod-7">
