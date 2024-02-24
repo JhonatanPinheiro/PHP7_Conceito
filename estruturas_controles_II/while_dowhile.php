@@ -37,6 +37,18 @@
             $contador++;
         }
 
+        echo '<hr>';
+        echo 'Fazendo um laço infinito com WHILE<br>';
+        $contador = 0;
+        while(true){
+            $contador++;
+            print_r($contador);
+            if($contador === VALOR_LIMITE){
+                echo "<br>Passei por aqui 5 vezes. Fim! ";
+                break;
+            }
+        }
+
     ?>
 <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 </body>
