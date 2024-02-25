@@ -17,11 +17,25 @@
             <button class="botao-criar">Criar</button>
         </form>
     </center>
-    <?php
 
+    <table>
+        <?php
+            $quantidade_coluna = $_POST['qtd-coluna'];
+            $quantidade_linha = $_POST['qtd-linha'];
+            echo "<div class='azul'>";
+                for($i = 1; $i <= $quantidade_linha; $i++){
+                    echo '<tr>';
+                    for($j = 1; $j <= $quantidade_coluna; $j++){
+                        echo '<td>';
+                        echo "{$j}";
+                        echo '</td>';
+                    }
 
-
-    ?>
+                    echo'</tr>';
+                }
+            echo '</div>';
+        ?>
+    </table>
 
 
 
@@ -51,6 +65,10 @@
 
     .botao-criar{
        font-size: 1.8rem; 
+    }
+
+    .azul{
+        background: blue;
     }
 
 </style>
