@@ -67,8 +67,11 @@
        font-size: 1.8rem; 
     }
 
-    .azul{
-        background: blue;
+    td{
+        border: 0.3rem solid blue;
+        padding: 0.3rem;
     }
+
+
 
 </style>
