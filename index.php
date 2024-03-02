@@ -103,9 +103,9 @@
                 </ul>
             </div>
             <div class="modulo mod-7">
-                <h3> Módulo 07</h3>
+                <h3> Módulo 07 - Funções </h3>
                 <ul>
-                    <li><a href="#">Exercício A</a></li>
+                    <li><a href="exercicio.php?dir=funcoes&file=funcoes_escopo"> Funções e Escopo </a></li>
                     <li><a href="#">Exercício B</a></li>
                     <li><a href="#">Exercício C</a></li>
                 </ul>
