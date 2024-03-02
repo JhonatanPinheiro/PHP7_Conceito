@@ -106,6 +106,7 @@
                 <h3> Módulo 07 - Funções </h3>
                 <ul>
                     <li><a href="exercicio.php?dir=funcoes&file=funcoes_escopo"> Funções e Escopo </a></li>
+                    <li><a href="exercicio.php?dir=funcoes&file=argumento_retorno"> Argumentos e Retorno </a></li>
                     <li><a href="#">Exercício B</a></li>
                     <li><a href="#">Exercício C</a></li>
                 </ul>
