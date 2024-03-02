@@ -48,6 +48,7 @@
     echo '<br>', $variavel;
 
     #Tomar cuidado a usar, pois isso fere uns dos paradigmas ! 
+    # Ao usar &$ você está passando o endereço 
     function trocarValorDeVerdade(&$a, $novoValor){
         $a = $novoValor;
     }
