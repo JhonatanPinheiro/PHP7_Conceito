@@ -27,7 +27,7 @@
                     echo '<tr>';
                     for($j = 1; $j <= $quantidade_coluna; $j++){
                         echo '<td>';
-                        echo "{$j}";
+                        echo $k += 1;#echo "{$j}";
                         echo '</td>';
                     }
 
