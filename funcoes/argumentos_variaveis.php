@@ -53,10 +53,6 @@
         membros("Jhonatan", "teste1", "teste2");
 
         membros("Layara");
-
-
-
-    
     ?>
 <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 </body>
