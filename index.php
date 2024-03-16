@@ -110,6 +110,7 @@
                     <li><a href="exercicio.php?dir=funcoes&file=desafio_palindromo"> Desafio Palindromo </a></li>
                     <li><a href="exercicio.php?dir=funcoes&file=argumentos_variaveis"> Argumentos Variáveis </a></li>
                     <li><a href="exercicio.php?dir=funcoes&file=argumentos_variaveis"> Argumentos Padrões </a></li>
+                    <li><a href="exercicio.php?dir=funcoes&file=declarando_tipos"> Declarando Tipos </a></li>
                     <li><a href="#">Exercício B</a></li>
                     <li><a href="#">Exercício C</a></li>
                 </ul>
