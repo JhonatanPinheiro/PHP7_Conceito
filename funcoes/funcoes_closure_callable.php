@@ -19,8 +19,35 @@
     $soma1 = 1;
     echo (is_callable($soma1) ? 'Sim' : 'Não') . '<br>';
 
-    
+    echo '<hr>';
 
+    function soma2($a,$b){
+        return $a + $b;
+    }
+   
+    # echo soma2(2,3) . '<br>';
+    # echo (is_callable(soma2) ? 'Sim' : 'Não') . '<br>';
+    
+    var_dump($soma1);
+    var_dump(soma2);
+
+    echo '<hr>';
+
+    function executar1($a,$b, $op, Callable $funcao1){
+        $resultado = $funcao1($a,$b) ?? 'Nada';
+        echo "$a $op $b = $resultado <br>";
+    }
+
+    // É um objeto do tipo Closure. Essa é uma classe especial do PHP que é utilizada para representar uma função anônima. Quando uma função anônima é criada, o seu tipo é Closure. Na prática, uma closure é uma função anônima.
+    function executar2($a,$b, $op, Closure $funcao2){
+        $resultado = $funcao2($a,$b) ?? 'Nada';
+        echo "$a $op $b = $resultado <br>";
+    }
+
+    echo '<br>'; 
+    executar1(10,10,'+',$soma1);
+    executar2(3000,1000,'+',soma2);
+    
 
 
     ?>
