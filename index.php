@@ -112,7 +112,7 @@
                     <li><a href="exercicio.php?dir=funcoes&file=argumentos_variaveis"> Argumentos Padrões </a></li>
                     <li><a href="exercicio.php?dir=funcoes&file=declarando_tipos"> Declarando Tipos </a></li>
                     <li><a href="exercicio.php?dir=funcoes&file=funcoes_anonima"> Funções Anônima </a></li>
-                    <li><a href="exercicio.php?dir=funcoes&file=closure_callable">Funções - Closure e Callable </a></li>
+                    <li><a href="exercicio.php?dir=funcoes&file=funcoes_closure_callable"> Closure e Callable </a></li>
                     <li><a href="#">Exercício B</a></li>
                     <li><a href="#">Exercício C</a></li>
                 </ul>
