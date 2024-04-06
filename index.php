@@ -113,6 +113,7 @@
                     <li><a href="exercicio.php?dir=funcoes&file=declarando_tipos"> Declarando Tipos </a></li>
                     <li><a href="exercicio.php?dir=funcoes&file=funcoes_anonima"> Funções Anônima </a></li>
                     <li><a href="exercicio.php?dir=funcoes&file=funcoes_closure_callable"> Closure e Callable </a></li>
+                    <li><a href="exercicio.php?dir=funcoes&file=recursividade"> Recursividade </a></li>
                     <li><a href="#">Exercício B</a></li>
                     <li><a href="#">Exercício C</a></li>
                 </ul>
