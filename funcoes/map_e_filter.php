@@ -40,7 +40,7 @@
     $notasArredondadas = [];
 
     ##-------------------------Jeito 1---------------------------
-    foreach($notas AS $index => $valueNota){
+    foreach($notas as $index => $valueNota){
         $notasArredondadas[] = round($valueNota);
     }
 
@@ -48,10 +48,28 @@
     echo '<hr>';
     ##---------------------------Jeito 2 Usando MAP--------------
     $notasArredondadas2 = array_map('round', $notas);
-    print_r($notasArredondadas2);
+    #print_r($notasArredondadas2);
 
+    $apenasOsAprovados = [];
+
+    foreach($notas as $index => $valueNota){
+        if($valueNota >= 7){
+            $apenasOsAprovados2[] = $valueNota;
+        }
+    }
+
+    echo '<br>';
+    print_r($apenasOsAprovados2);
+
+    ##----------------------------------------Tralhando com a Função FILTER------------------
+    echo '<hr>';
+    function aprovadosAcimaDaMedia($valueNota){
+        return $valueNota >= 7;
+    }
+    echo '<br>';
     
-
+    $apenasOsAprovados2 = array_filter($notas,'aprovadosAcimaDaMedia');
+    print_r($apenasOsAprovados2);
 
     ?>
 <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
