@@ -71,6 +71,22 @@
     $apenasOsAprovados2 = array_filter($notas,'aprovadosAcimaDaMedia');
     print_r($apenasOsAprovados2);
 
+    
+    ##-----------------------------------------------------------------------------------------
+    echo '<hr>';
+    function calculoLegal($nota){
+        $notaFinal = round($nota) + 1; #Arrendondando e adicionando mais 1 ponto na nota
+        return $notaFinal > 10 ? 10 : $notaFinal; #Se a nota for maior que 10 ele me trás 10 caso contrario trás a notaFinal que está armazenado o valor na váriavel com 1 ponto a mais 
+    }
+
+    echo '<br>';
+
+    $resultadaNotaFinal = array_map('calculoLegal',$notas);
+    print_r($resultadaNotaFinal);
+
+
+
+
     ?>
 <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 </body>
