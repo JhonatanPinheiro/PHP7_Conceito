@@ -36,7 +36,22 @@
     
     */
     
+    $notas = [5.8, 7.3, 9.8, 6.7];
+    $notasArredondadas = [];
+
+    ##-------------------------Jeito 1---------------------------
+    foreach($notas AS $index => $valueNota){
+        $notasArredondadas[] = round($valueNota);
+    }
+
+    print_r($notasArredondadas);
+    echo '<hr>';
+    ##---------------------------Jeito 2 Usando MAP--------------
+    $notasArredondadas2 = array_map('round', $notas);
+    print_r($notasArredondadas2);
+
     
+
 
     ?>
 <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
