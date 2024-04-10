@@ -27,6 +27,7 @@
 
 
         imprimirArray($array);
+       #imprimirArray($array, '#');
 
 
 
