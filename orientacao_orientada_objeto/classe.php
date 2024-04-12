@@ -7,7 +7,21 @@
     <div class="title"> CLASSE  </div>
     <hr><br>
     <?php
+    class Cliente{
+        #ATRIBUTOS
+        public $nome = 'Anônimo';
+        public $idade  = 18;
+
+        #Definindo uma função
+
+        public function apresentar(){
+            echo "Nome:{$this->nome}<br>";
+        }
+    }
+
     
+    $cliente1 = new Cliente();
+    $cliente1 -> apresentar();
 
     
     ?>
