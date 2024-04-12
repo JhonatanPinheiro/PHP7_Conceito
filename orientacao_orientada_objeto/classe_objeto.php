@@ -4,7 +4,7 @@
 <head> </head>
 
 <body>
-    <div class="title">  </div>
+    <div class="title"> Teoria sobre Programação Orientada a Objeto (POO) </div>
     <hr><br>
     <?php
     
@@ -28,13 +28,7 @@
     _________________________
     
     */
-
     
-
-
-
-
-
     ?>
 <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 </body>
