@@ -124,6 +124,7 @@
                 <ul>
                     <li><a href="exercicio.php?dir=orientacao_orientada_objeto&file=classe_objeto"> Classe Vs Objeto </a></li>
                     <li><a href="exercicio.php?dir=orientacao_orientada_objeto&file=classe"> Classe </a></li>
+                    <li><a href="exercicio.php?dir=orientacao_orientada_objeto&file=desafio_classe_data"> Desafio Classe Data </a></li>
                     <li><a href="#">Exercício B</a></li>
                     <li><a href="#">Exercício C</a></li>
                 </ul>
