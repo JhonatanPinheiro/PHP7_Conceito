@@ -15,16 +15,22 @@
         #Definindo uma função
 
         public function apresentar(){
-            echo "Nome:{$this->nome}<br>";
+            return "Nome:{$this->nome} Idade: {$this-> idade}<br>";
         }
     }
-
-    
+   
     $cliente1 = new Cliente();
-    $cliente1 -> apresentar();
+    echo $cliente1 -> apresentar();
 
-    
-    ?>
+    $cliente1 -> nome = 'Jhonatan';
+    echo $cliente1 -> apresentar();
+
+    $cliente2 = new Cliente;
+    $cliente2 -> nome = "Layara";
+    $cliente2 -> idade = "21"; 
+    echo $cliente2 -> apresentar();    
+   
+   ?>
 <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 </body>
 </html>
