@@ -4,7 +4,7 @@
 <head> </head>
 
 <body>
-    <div class="title"> Construtor e Destrutor </div>
+    <div class="title"> Construtor|Destrutor ->  Apredendo </div>
     <hr><br>
     <?php
     class Pessoa {
