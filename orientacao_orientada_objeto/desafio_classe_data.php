@@ -7,27 +7,28 @@
     <div class="title"> DESAFIO DE CLASSE DATA </div>
     <hr><br>
     <?php
-    class Data
-    {
-        public int $dia = 1;
-        public string $mes = 'Janeiro';
-        public int $ano = 1970;
+    class Data {
+        public $dia;
+        public $mes;
+        public $ano;
 
-        function apresentarData()
-        {
-            return "Dia: {$this->dia} / Mês: {$this->mes} / Ano: {$this->ano} <br>";
+        public function __construct($dia,$mes,$ano){
+            $this->dia = $dia;
+            $this->mes = $mes;
+            $this->ano = $ano;
+        }
+
+        public function apresentarData(){
+            return "{$this->dia} / {$this->mes} / {$this->ano} <br> <hr>";
         }
     }
 
-    $primeiraData = new Data();
+    $data1 = new Data('01','10','1980');
+    echo  $data1->apresentarData();
 
-    echo $primeiraData->apresentarData();
-
-    $segundaData = new Data();
-    $segundaData->dia = 10;
-    $segundaData->mes = 04;
-    $segundaData->ano = 1988;
-    echo $segundaData->apresentarData();
+    $data1 = new Data('15','04','1971');
+    $data1->ano = '2000';
+    echo  $data1->apresentarData();
 
     ?>
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
