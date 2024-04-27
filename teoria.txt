@@ -1,0 +1,28 @@
+- PILARES DA ORIENTAÇÃO OBJETO
+    1 - ENCAPSOLAMENTO
+    2 - HERANÇA
+    3- POLIMORFISMO
+    4 - ABSTRAÇÃO
+
+
+
+ENCAPSOLAMENTO: Na programação orientada a objetos é o conceito de ocultar detalhes internos de um objeto e permitir o acesso a esses detalhes apenas por meio de métodos específicos. Isso ajuda a proteger os dados de serem modificados de forma inadequada e promove a modularidade do código.
+
+HERANÇA: Na programação orientada a objetos é um princípio em que uma classe pode herdar características e comportamentos de outra classe. A classe que é herdada é chamada de classe base ou superclasse, enquanto a classe que herda é chamada de classe derivada ou subclasse. Isso permite reutilizar código, promove a hierarquia de classes e facilita a extensão e manutenção do software.
+
+POLIMORFISMO: Na programação orientada a objetos refere-se à capacidade de objetos de classes diferentes responderem ao mesmo método de maneira distinta. Isso significa que um método pode se comportar de maneira diferente dependendo do tipo do objeto que o chama. O polimorfismo permite escrever código mais flexível, genérico e fácil de dar manutenção, além de promover a reutilização de código e facilitar a implementação de padrões de design como o padrão Strategy e o padrão Template Method.
+
+ABSTRAÇÃO na programação orientada a objetos é o processo de identificar as características essenciais de um objeto e ignorar os detalhes menos relevantes. Isso envolve a criação de classes e métodos que representam conceitos do mundo real de forma simplificada e focada nos aspectos mais importantes para o problema em questão. A abstração permite modelar objetos de forma mais clara e eficiente, facilitando o desenvolvimento e a compreensão do software.
+
+
+MODIFICADORES DE ACESSO
+ Puclic -> Todo mundo vê
+ Protected -> Apenas vísivel dentro da classe e também transmitido por herança
+ Private -> Vível apenas dentro da classe
+
+
+POLIMORFISMO
+
+Estático <- É a sobrecarga de métodos (Duas funções com o mesmo nome porém com parametros diferentes). Isso não existe na linguagem PHP
+Dinâmico
+
