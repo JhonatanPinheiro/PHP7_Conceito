@@ -24,5 +24,5 @@ MODIFICADORES DE ACESSO
 POLIMORFISMO
 
 Estático <- É a sobrecarga de métodos (Duas funções com o mesmo nome porém com parametros diferentes). Isso não existe na linguagem PHP
-Dinâmico
+Dinâmico <- 
 
