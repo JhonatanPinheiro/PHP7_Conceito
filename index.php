@@ -128,6 +128,7 @@
                     <li><a href="exercicio.php?dir=orientacao_orientada_objeto&file=construtor_destrutor_aprendendo"> Construtor|Destrutor ->  Apredendo </a></li>
                     <li><a href="exercicio.php?dir=orientacao_orientada_objeto&file=construtor_destrutor"> Construtor e Destrutor </a></li>
                     <li><a href="exercicio.php?dir=orientacao_orientada_objeto&file=paradigmas"> Paradigmas </a></li>
+                    <li><a href="exercicio.php?dir=orientacao_orientada_objeto&file=heranca"> Herança </a></li>
                     <li><a href="#">Exercício B</a></li>
                     <li><a href="#">Exercício C</a></li>
                 </ul>
