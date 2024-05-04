@@ -131,6 +131,7 @@
                     <li><a href="exercicio.php?dir=orientacao_orientada_objeto&file=heranca"> Herança </a></li>
                     <li><a href="exercicio.php?dir=orientacao_orientada_objeto&file=modificadores_acesso"> Modificadores de Acesso </a></li>
                     <li><a href="exercicio.php?dir=orientacao_orientada_objeto&file=membros_de_classe"> Membros de Classe (Static) </a></li>
+                    <li><a href="exercicio.php?dir=orientacao_orientada_objeto&file=interface"> Interface </a></li>
                     <li><a href="#">Exercício B</a></li>
                     <li><a href="#">Exercício C</a></li>
                 </ul>
