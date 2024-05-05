@@ -45,7 +45,14 @@
     #$c->metodo2('externo');
     $c->metodo3();
 
-    echo "Fim";
+
+    echo '<br>';
+    var_dump($c instanceof Concreta);
+    echo '<br>';
+    var_dump($c instanceof FilhaAbstrata);
+    echo '<br>';
+    var_dump($c instanceof Abstrata);
+
     ?>
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 </body>
