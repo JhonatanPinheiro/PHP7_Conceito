@@ -136,6 +136,7 @@
                     <li><a href="exercicio.php?dir=orientacao_orientada_objeto&file=desafio_7erros"> Desafio dos 7 Erros </a></li>
                     <li><a href="exercicio.php?dir=orientacao_orientada_objeto&file=modificador_final"> Modificador Final </a></li>
                     <li><a href="exercicio.php?dir=orientacao_orientada_objeto&file=traits_01"> Traits #01 </a></li>
+                    <li><a href="exercicio.php?dir=orientacao_orientada_objeto&file=traits_02"> Traits #02 </a></li>
                     <li><a href="#">Exercício B</a></li>
                     <li><a href="#">Exercício C</a></li>
                 </ul>
