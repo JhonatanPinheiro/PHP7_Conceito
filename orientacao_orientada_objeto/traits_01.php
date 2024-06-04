@@ -18,7 +18,7 @@
     #Um trait é uma forma de reutilizar código em várias classes de forma horizontal, ou seja, em classes que não estão relacionadas por meio de herança.
     trait validacaoMelhor {
         public $b = 'Valor b';
-        private $c = 'Valor privado';
+        private $c = 'Valor c privado';
 
         public function validarStringMelhor($str){
             return isset($str) && trim($str);
