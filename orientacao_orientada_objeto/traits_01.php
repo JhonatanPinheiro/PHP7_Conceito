@@ -14,6 +14,7 @@
         }
     }
 
+    #Um trait é uma forma de reutilizar código em várias classes de forma horizontal, ou seja, em classes que não estão relacionadas por meio de herança.
     trait validacaoMelhor {
         public function validarStringMelhor($str){
             return isset($str) && trim($str);
@@ -25,7 +26,10 @@
         use validacao,validacaoMelhor;
     }
 
-
+    #var_dump(validacao->validarString);
+    $usuario = new Usuario();
+    var_dump($usuario->validarString(' '));
+    echo '<br>';
 
     ?>
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
