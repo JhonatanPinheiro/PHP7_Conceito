@@ -139,11 +139,17 @@
                     <li><a href="exercicio.php?dir=orientacao_orientada_objeto&file=traits_02"> Traits #02 </a></li>
                     <li><a href="exercicio.php?dir=orientacao_orientada_objeto&file=metodo_magico"> Método Mágico </a></li>
                     <li><a href="exercicio.php?dir=orientacao_orientada_objeto&file=polimorfismo"> Polimorfismo </a></li>
+                </ul>
+            </div>
+            <div class="modulo mod-9">
+                <h3> Includes </h3>
+                <ul>
+                    <li><a href="exercicio.php?dir=include&file=teste"> 1 </a></li>
                     <li><a href="#">Exercício B</a></li>
                     <li><a href="#">Exercício C</a></li>
                 </ul>
             </div>
-            <div class="modulo mod-9">
+            <div class="modulo mod-10">
                 <h3> Módulo 09</h3>
                 <ul>
                     <li><a href="#">Exercício A</a></li>
