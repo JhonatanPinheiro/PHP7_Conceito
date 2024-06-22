@@ -142,9 +142,9 @@
                 </ul>
             </div>
             <div class="modulo mod-9">
-                <h3> Includes </h3>
+                <h3>  Módulo 09 - INCLUDE </h3>
                 <ul>
-                    <li><a href="exercicio.php?dir=includes&file=teste"> 1 </a></li>
+                    <li><a href="exercicio.php?dir=includes&file=include"> INCLUDE </a></li>
                     <li><a href="#">Exercício B</a></li>
                     <li><a href="#">Exercício C</a></li>
                 </ul>
