@@ -144,7 +144,7 @@
             <div class="modulo mod-9">
                 <h3> Includes </h3>
                 <ul>
-                    <li><a href="exercicio.php?dir=include&file=teste"> 1 </a></li>
+                    <li><a href="exercicio.php?dir=includes&file=teste"> 1 </a></li>
                     <li><a href="#">Exercício B</a></li>
                     <li><a href="#">Exercício C</a></li>
                 </ul>
