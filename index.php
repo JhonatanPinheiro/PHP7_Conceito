@@ -146,6 +146,7 @@
                 <ul>
                     <li><a href="exercicio.php?dir=includes&file=include"> INCLUDE </a></li>
                     <li><a href="exercicio.php?dir=includes&file=include_funcao"> INCLUDE FUNÇÃO </a></li>
+                    <li><a href="exercicio.php?dir=includes&file=include_require"> INCLUDE REQUIRE </a></li>
                     <li><a href="#">Exercício B</a></li>
                     <li><a href="#">Exercício C</a></li>
                 </ul>
