@@ -16,5 +16,6 @@ echo "Variável  = '{$variavel}' . <br>";
 
 # Esse include_once ele reconhe-se que o arquivo já é existente e não carrega novamente  (Ou eja já foi chamado/implementado 1 vez)
 include_once('include_once_arquivo.php');
+require_once('include_once_arquivo.php');
 
 ?>
