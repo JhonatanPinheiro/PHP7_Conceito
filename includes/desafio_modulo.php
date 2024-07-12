@@ -5,5 +5,6 @@ require_once('desafio1_pessoa.php');
 require_once('desafio1_usuario.php');
 
 $usuario = new Usuario('Jhon',24,'teste');
-$usuario->apresentar();
+echo $usuario->apresentar();
+unset($usuario);
 ?>
