@@ -134,9 +134,9 @@
         </ul>
     </div>
     <div class="modulo mod-10">
-        <h3> Módulo 09</h3>
+        <h3> Módulo 10 - NAMESPACE </h3>
         <ul>
-            <li><a href="#">Exercício A</a></li>
+            <li><a href="exercicio.php?dir=namespace&file=basico"> Básico </a></li>
             <li><a href="#">Exercício B</a></li>
             <li><a href="#">Exercício C</a></li>
         </ul>
