@@ -131,8 +131,6 @@
             <li><a href="exercicio.php?dir=includes&file=require_return"> REQUIRE & RETURN </a></li>
             <li><a href="exercicio.php?dir=includes&file=include_once"> INCLUDE ONCE </a></li>
             <li><a href="exercicio.php?dir=includes&file=desafio_modulo"> Desafio Módulo </a></li>
-            <li><a href="#">Exercício B</a></li>
-            <li><a href="#">Exercício C</a></li>
         </ul>
     </div>
     <div class="modulo mod-10">
