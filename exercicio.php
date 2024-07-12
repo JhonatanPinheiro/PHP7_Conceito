@@ -18,8 +18,8 @@
         <h2>Visualização do Exercício</h2>
     </header>
     <nav class="navegacao">
-        <a href=<?= "/PHP7-Conceito/{$_GET['dir']}/{$_GET['file']}.php" ?> class="botao-sem-formatacao">Sem formatação </a>
-        <a href="/PHP7-Conceito/" class="botao-voltar">Voltar</a>
+        <a href=<?= "http://localhost/{$_GET['dir']}/{$_GET['file']}.php" ?> class="botao-sem-formatacao">Sem formatação </a>
+        <a href="http://localhost" class="botao-voltar">Voltar</a>
     </nav>
     <div class="conteudo">
         <?php
