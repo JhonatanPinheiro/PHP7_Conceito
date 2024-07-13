@@ -139,8 +139,20 @@
             <li><a href="exercicio.php?dir=namespace&file=basico"> Básico </a></li>
             <li><a href="exercicio.php?dir=namespace&file=subnamespace"> Sub-Namespace </a></li>
             <li><a href="exercicio.php?dir=namespace&file=useas"> Use/As </a></li>
-            <li><a href="#">Exercício B</a></li>
-            <li><a href="#">Exercício C</a></li>
+        </ul>
+    </div>
+    <div class="modulo mod-10">
+        <h3> Módulo 11 - TRATAMENTO DE ERRO </h3>
+        <ul>
+            <li><a href="exercicio.php?dir=tratamento_de_erro&file=tray_catch"> Tray / Catch </a></li>
+            <li><a href="exercicio.php?dir=tratamento_de_erro&file=subnamespace"> ? </a></li>
+            <li><a href="exercicio.php?dir=tratamento_de_erro&file=useas"> ? </a></li>
+        </ul>
+    </div>
+    <div class="modulo mod-??">
+        <h3> Módulo 11 - ?? </h3>
+        <ul>
+            <li><a href="exercicio.php?dir=namespace&file=basico"> ?? </a></li>
         </ul>
     </div>
 </nav>
