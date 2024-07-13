@@ -138,6 +138,7 @@
         <ul>
             <li><a href="exercicio.php?dir=namespace&file=basico"> Básico </a></li>
             <li><a href="exercicio.php?dir=namespace&file=subnamespace"> Sub-Namespace </a></li>
+            <li><a href="exercicio.php?dir=namespace&file=useas"> Use/As </a></li>
             <li><a href="#">Exercício B</a></li>
             <li><a href="#">Exercício C</a></li>
         </ul>
