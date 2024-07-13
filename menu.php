@@ -145,7 +145,7 @@
         <h3> Módulo 11 - TRATAMENTO DE ERRO </h3>
         <ul>
             <li><a href="exercicio.php?dir=tratamento_de_erro&file=tray_catch"> Tray / Catch </a></li>
-            <li><a href="exercicio.php?dir=tratamento_de_erro&file=subnamespace"> ? </a></li>
+            <li><a href="exercicio.php?dir=tratamento_de_erro&file=erros_personalizado"> Erros Personalizados </a></li>
             <li><a href="exercicio.php?dir=tratamento_de_erro&file=useas"> ? </a></li>
         </ul>
     </div>
