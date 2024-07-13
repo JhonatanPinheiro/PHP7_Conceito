@@ -28,6 +28,27 @@ use Nome\Bem\Grande AS ctx;
 echo soma(1,2). '<br>'; # Porém estarei referenciando o função desse mesmo NAMESPACE 'Outro\Nome' - Nesse próprio arquivo 'useas.php'
 echo ctx\soma(1,2).'<br>'; #Aqui sim estárei referencia o NAMESPACE do meu outro arquivo 'useas_arquivo' com seu NAMESPACE 'Nome\Bem\Grande'.
 
+#use function Nome\Bem\Grande\soma;
+use function Nome\Bem\Grande\soma AS somaReal;
+echo somaReal(1000,200);
 
+echo '<br>';
+
+$a = new Classe;
+$a->func();
+
+echo '<hr>';
+$b = new \Nome\Bem\Grande\Classe();
+$b->func();
+
+echo '<hr>';
+$c = new ctx\Classe();
+$c->func();
+
+echo '<hr>';
+#Posso aplicar um Alias a essa clase 
+use \Nome\Bem\Grande\Classe AS D;
+$d = new D();
+$d->func();
 
 ?>
