@@ -148,7 +148,7 @@
             <li><a href="exercicio.php?dir=tratamento_de_erro&file=erros_personalizado"> Erros Personalizados </a></li>
             <li><a href="exercicio.php?dir=tratamento_de_erro&file=desafio"> DESAFIO 1 </a></li>
             <li><a href="exercicio.php?dir=tratamento_de_erro&file=desafio_resposta"> DESAFIO 1 - RESPOSTA </a></li>
-            <li><a href="exercicio.php?dir=tratamento_de_erro&file=useas"> ? </a></li>
+            <li><a href="exercicio.php?dir=tratamento_de_erro&file=error_handler"> Error Handler - Gerenciador erro </a></li>
         </ul>
     </div>
     <div class="modulo mod-??">
