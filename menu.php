@@ -155,6 +155,8 @@
         <h3> Módulo 11 - Sessão & Cookie </h3>
         <ul>
             <li><a href="exercicio.php?dir=sessao&file=basico_sessao"> Básico Sessão </a></li>
+            <li><a href="exercicio.php?dir=sessao&file=basico_sessao_alterar"> Básico Sessão Alterar </a></li>
+            <li><a href="exercicio.php?dir=sessao&file=basico_sessao_limpar"> Básico Sessão Limpando 'Sessão' </a></li>
         </ul>
     </div>
 </nav>

@@ -12,11 +12,11 @@
     echo '<br>';
 
     if(!$_SESSION['nome']){
-        $_SESSION['nome'] = 'Gabriel';
+        $_SESSION['nome'] = 'Jhonatan';
     }
 
     if(!$_SESSION['email']){
-        $_SESSION['email'] = 'gabriel@gmail.com';
+        $_SESSION['email'] = 'jhonatan@gmail.com';
     }
    
     print_r($_SESSION);
