@@ -152,9 +152,9 @@
         </ul>
     </div>
     <div class="modulo mod-??">
-        <h3> Módulo 11 - ?? </h3>
+        <h3> Módulo 11 - Sessão & Cookie </h3>
         <ul>
-            <li><a href="exercicio.php?dir=namespace&file=basico"> ?? </a></li>
+            <li><a href="exercicio.php?dir=sessao&file=basico_sessao"> Básico Sessão </a></li>
         </ul>
     </div>
 </nav>
