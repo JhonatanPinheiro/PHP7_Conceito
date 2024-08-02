@@ -7,6 +7,11 @@
     color: #FFF;
 }
 
+.navegacao > a.botao-logount{
+    background-color: #ff3c00;
+    color: #ffffff;
+}
+
 /* Estilizando o efeito do botão voltar ao passar o mouse em cima dele */
 .navegacao > a:hover.botao-voltar, a:hover.botao-sem-formatacao{
     border-bottom: 3px groove #FFF;

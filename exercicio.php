@@ -27,6 +27,7 @@ if(!$_SESSION['usuario']){
     <nav class="navegacao">
         <a href=<?= "http://localhost/{$_GET['dir']}/{$_GET['file']}.php" ?> class="botao-sem-formatacao">Sem formatação </a>
         <a href="http://localhost" class="botao-voltar">Voltar</a>
+        <a href="http://localhost/logount.php" class="botao-logount">Sair</a>
     </nav>
     <main class="principal">
         <div class="conteudo">
