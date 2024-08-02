@@ -157,6 +157,7 @@
             <li><a href="exercicio.php?dir=sessao&file=basico_sessao"> Básico Sessão </a></li>
             <li><a href="exercicio.php?dir=sessao&file=basico_sessao_alterar"> Básico Sessão Alterar </a></li>
             <li><a href="exercicio.php?dir=sessao&file=basico_sessao_limpar"> Básico Sessão Limpando 'Sessão' </a></li>
+            <li><a href="exercicio.php?dir=sessao&file=gerenciando_sessao"> Gerenciando Sessão </a></li>
         </ul>
     </div>
 </nav>
