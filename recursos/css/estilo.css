@@ -7,9 +7,9 @@ body{
     height: 100vh;
     margin: 0px;
     display: grid;
-    grid-template-rows: 120px 1fr 60px;
+    grid-template-rows:  120px 60px 1fr 60px;
     grid-template-columns: 1ft;
-    grid-template-areas: "cabecalho" "principal" "rodape ";
+    grid-template-areas: "cabecalho" "navegacao" "principal" "rodape";
 
 }
 
@@ -40,7 +40,7 @@ body{
 
 .principal {
     grid-area: principal;
-    height: calc(100vh - 180px);
+    height: cacl(calc(100vh - 240px))
     background-color: rgb(255, 255, 255);
     padding: 20px;
 
@@ -161,4 +161,24 @@ body{
 
 .modulo.mod-9 {
     border: 3px solid #000;
+}
+
+
+
+.navegacao {
+    grid-area: navegacao;
+    display: flex;
+    justify-content:  flex-end;
+    align-items: center;
+    background-color: #000000;
+}
+
+.navegacao > a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 24px;
+    font-weight: 300;
+    background-color: rgb(247, 247, 247);
+    padding: 5px 10px;
+    border: 2px groove #000000;
 }

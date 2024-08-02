@@ -1,3 +1,10 @@
+<?php
+session_start();
+if(!$_SESSION['usuario']){
+    header('Location: login.php');
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -16,11 +23,16 @@
         <h1>PHP7</h1>
         <h2>Indíce dos exercícios</h2>
     </header>
-    <div class="conteudo">
-        <?php  
-            require_once('menu.php');
-        ?>
-    </div>
+    <nav class="navegacao">
+      
+    </nav>
+    <main class="principal">
+        <div class="conteudo">
+            <?php  
+                require_once('menu.php');
+            ?>
+        </div>
+    </main>
 </body>
 <footer class="rodape">
     Jhonatan Pinheiro &copy; <?= date('Y-M-D')  ?>
