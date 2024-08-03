@@ -19,6 +19,7 @@
     $amanha = time() + ((24 * 60) * 60);
     echo strftime('%A, %d de %B de %Y', $amanha) . '<br>';
     $proximaSemana = strtotime('+1 week');
+    #$proximaAno = strtotime('+1 year');
     echo strftime('%A, %d de %B de %Y', $proximaSemana) . '<br>';
 
     $dataFixa = mktime(15,30,50,1,25,1999);
