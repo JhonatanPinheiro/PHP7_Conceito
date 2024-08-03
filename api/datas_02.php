@@ -33,7 +33,7 @@
     $amanha->setDate(2000,5,20);
     echo strftime($formatoData2, $amanha->getTimestamp()) . '<br>';
 
-
+    
     echo '<br><strong> Usando a Váriavel datafixa: </strong><br>';
     $dataFixa = new DateTime('1975-01-25 15:30:50');
     echo strftime($formatoDataHora,$dataFixa->getTimestamp()) . '<br>';
@@ -53,14 +53,6 @@
     $tz = new DateTimeZone('America/Sao_Paulo');
     $agora = new DateTime(NULL,$tz);
     echo $agora->format('d/M/Y H:i:s');
-
-
-
-
-
-
-
-
 
     ?>
 <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
