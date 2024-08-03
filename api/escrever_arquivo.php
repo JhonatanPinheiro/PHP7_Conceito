@@ -11,6 +11,8 @@
     #Usando o w -> Mesmo o arquivo existindo ou não ele irá criar OU sobrescrever
     #Usando o x -> O arquivo não pode existir. Preciso ser novo
     #Usando o a -> ele irá adicionar mais uma informações no arquivo existente OU novo . Seria um "append"
+    #Usando r+ -> Esse modo seria leutura e escrita ao mesmo tempo, ao abrir para ler ele já escreve no momento da leitura. Precisa tomar cuidado pois ele sobrescreve os primeiros caracteres! 
+    
 
     $arquivo = fopen('log/log.txt','w');
     fwrite($arquivo, "Valor inicial\n");
