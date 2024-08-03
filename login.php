@@ -32,8 +32,11 @@ if($_POST['email']){
 
         if($emailValido && $senhaValida){
             $_SESSION['erros'] = NULL;
-
             $_SESSION['usuario'] = $usuario['nome'];
+
+            $exp = time() + (((60 * 60) * 24)* 30); #Usuário ficará dentro da sessão por 30 dias
+            setcookie('usuario', $usuario['nome'], $exp);
+
             header('Location: index.php');
 
         }
