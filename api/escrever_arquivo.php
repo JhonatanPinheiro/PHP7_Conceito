@@ -10,6 +10,7 @@
 
     #Usando o w -> Mesmo o arquivo existindo ou não ele irá criar OU sobrescrever
     #Usando o x -> O arquivo não pode existir. Preciso ser novo
+    #Usando o a -> ele irá adicionar mais uma informações no arquivo existente OU novo . Seria um "append"
 
     $arquivo = fopen('log/log.txt','w');
     fwrite($arquivo, "Valor inicial\n");
