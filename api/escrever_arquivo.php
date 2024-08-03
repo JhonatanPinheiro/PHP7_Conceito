@@ -4,11 +4,37 @@
 <head> </head>
 
 <body>
-    <div class="title"> Datas #02 </div>
+    <div class="title"> Escrevendo Arquivo </div>
     <hr><br>
     <?php
 
-   
+    #Usando o w -> Mesmo o arquivo existindo ou não ele irá criar OU sobrescrever
+    #Usando o x -> O arquivo não pode existir. Preciso ser novo
+
+    $arquivo = fopen('log/log.txt','w');
+    fwrite($arquivo, "Valor inicial\n");
+    $str = "Segunda Linha\n";
+    fwrite($arquivo,$str);
+    fclose($arquivo);
+
+    $arquivo = fopen('log/log2.txt','w');
+    fwrite($arquivo, "Novo Conteudo\n");
+    fclose($arquivo);
+
+    $arquivo = fopen('log/log.txt','a');
+    fwrite($arquivo, "com novos valores \n");
+    fwrite($arquivo, "Adicionando em segundo momento \n");
+    fclose($arquivo);
+
+    ini_set("display_errors",1);
+    $arquivo = fopen('log/log.txt','x');
+
+
+    #$arquivo = fopen('log/logNOVO.txt','x');
+    #fwrite($arquivo, "com novos valores \n");
+    #fclose($arquivo);
+
+
     ?>
 <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 </body>
