@@ -151,13 +151,19 @@
             <li><a href="exercicio.php?dir=tratamento_de_erro&file=error_handler"> Error Handler - Gerenciador erro </a></li>
         </ul>
     </div>
-    <div class="modulo mod-??">
-        <h3> Módulo 11 - Sessão & Cookie </h3>
+    <div class="modulo mod-12">
+        <h3> Módulo 12 - Sessão & Cookie </h3>
         <ul>
             <li><a href="exercicio.php?dir=sessao&file=basico_sessao"> Básico Sessão </a></li>
             <li><a href="exercicio.php?dir=sessao&file=basico_sessao_alterar"> Básico Sessão Alterar </a></li>
             <li><a href="exercicio.php?dir=sessao&file=basico_sessao_limpar"> Básico Sessão Limpando 'Sessão' </a></li>
             <li><a href="exercicio.php?dir=sessao&file=gerenciando_sessao"> Gerenciando Sessão </a></li>
+        </ul>
+    </div>
+    <div class="modulo mod-13">
+        <h3> Módulo 13 - API </h3>
+        <ul>
+            <li><a href="exercicio.php?dir=api&file=datas_01"> Data #01 </a></li>
         </ul>
     </div>
 </nav>
