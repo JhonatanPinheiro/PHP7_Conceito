@@ -169,6 +169,7 @@
             <li><a href="exercicio.php?dir=api&file=ler_arquivo"> Ler Arquivo </a></li>
             <li><a href="exercicio.php?dir=api&file=upload"> Upload do Arquivo </a></li>
             <li><a href="exercicio.php?dir=api&file=download"> Download do Arquivo </a></li>
+            <li><a href="exercicio.php?dir=api&file=imagens"> Imagens </a></li>
         </ul>
     </div>
 </nav>
