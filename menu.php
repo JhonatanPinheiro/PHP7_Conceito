@@ -160,7 +160,7 @@
             <li><a href="exercicio.php?dir=sessao&file=gerenciando_sessao"> Gerenciando Sessão </a></li>
         </ul>
     </div>
-    <div class="modulo mod-13">
+    <div class="modulo mod-13"> 
         <h3> Módulo 13 - API </h3>
         <ul>
             <li><a href="exercicio.php?dir=api&file=datas_01"> Data #01 </a></li>
