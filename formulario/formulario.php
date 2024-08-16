@@ -7,63 +7,7 @@
 <body>
     <div class="title"> Formulário - Cadastro </div>
     <br>
-    <form action="#" method="post">
-        <div class="form-row">
-            <div class="form-group col-md-9">
-                <label for="nome"> Nome </label>
-                <input type="text" class="form-control <?= $erros['nome'] ? 'is-invalid' : ''?>" 
-                       id="nome" name="nome" placeholder="Nome"
-                       value="<?= $_POST['nome'] ?>">
-                <div class="invalid-feedback">
-                    <?=$erros['nome']?>
-                </div>
-            </div>
-            <div class="form-group col-md-9">
-                <label for="nascimento"> Nascimento </label>
-                <input type="text" class="form-control" id="nascimento" name="nascimento" placeholder="Nascimento"
-                       value="<?= $_POST['nascimento']?>">
-            </div>
-        </div>
-        <div class="form-row">
-            <div class="form-group col-md-6">
-                <label for="email"> E-mail </label>
-                <input type="email" class="form-control" id="email" name="email" placeholder="E-mail"
-                value="<?= $_POST['email']?>">
-            </div>
-            <div class="form-group col-md-6">
-                <label for="site"> Site </label>
-                <input type="text" class="form-control" id="site" name="site" placeholder="Site"
-                value="<?= $_POST['site']?>">
-            </div>
-        </div>
-        <div class="form-row">
-            <div class="form-group col-md-6">
-                <label for="login"> Login </label>
-                <input type="text" class="form-control" id="login" name="login" placeholder="Login"
-                value="<?= $_POST['login']?>">
-            </div>
-            <div class="form-group col-md-6">
-                <label for="ip"> IP </label>
-                <input type="text" class="form-control" id="ip" name="ip" placeholder="IP Fixo"
-                value="<?= $_POST['ip']?>">
-            </div>
-        </div>
-        <div class="form-row">
-            <div class="form-group col-md-6">
-                <label for="qtd_filhos"> Quantidade de Filhos </label>
-                <input type="number" class="form-control" id="qtd_filhos" name="qtd_filhos" placeholder="Quantidade de Filhos"
-                value="<?= $_POST['qtd_filhos']?>">
-            </div>
-            <div class="form-group col-md-6">
-                <label for="salario"> Salário </label>
-                <input type="text" class="form-control" id="salario" name="salario" placeholder="Salário"
-                value="<?= $_POST['salario']?>">
-            </div>
-        </div>
-        <button class="btn btn-primary btg-lg"> Enviar </button>
-        <button class="btn btn-danger btg-lg" name="limpar_dados" value="0"> Limpar Formulário </button> 
-    </form>
-    <hr>
+    
     <?php
         if(count($_POST) > 0){
             $erros = [];
@@ -115,10 +59,93 @@
             }
         }
     ?>
+
+    <form action="#" method="post">
+        <div class="form-row">
+            <div class="form-group col-md-9">
+                <label for="nome"> Nome </label>
+                <input type="text" class="form-control <?= $erros['nome'] ? 'is-invalid' : 'is-valid'?>" 
+                       id="nome" name="nome" placeholder="Nome"
+                       value="<?= $_POST['nome'] ?>">
+                <div class="invalid-feedback">
+                    <?=$erros['nome']?>
+                </div>
+            </div>
+            <div class="form-group col-md-9">
+                <label for="nascimento"> Nascimento </label>
+                <input type="text" class="form-control <?= $erros['nascimento'] ? 'is-invalid':'is-valid'?>" 
+                       id="nascimento" name="nascimento" placeholder="Nascimento"
+                       value="<?= $_POST['nascimento']?>">
+                <div class="invalid-feedback">
+                    <?=$erros['nascimento']?>
+                </div>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="email"> E-mail </label>
+                <input type="email" class="form-control <?= $erros['email'] ? 'is-invalid':'is-valid'?>"
+                       id="email" name="email" placeholder="E-mail"
+                       value="<?= $_POST['email']?>">
+                <div class="invalid-feedback">
+                    <?=$erros['email']?>
+                </div>
+            </div>
+            <div class="form-group col-md-6">
+                <label for="site"> Site </label>
+                <input type="text" class="form-control <?= $erros['site'] ? 'is-invalid': 'is-valid'?>"
+                       id="site" name="site" placeholder="Site"
+                       value="<?= $_POST['site']?>">
+                <div class="invalid-feedback">
+                    <?=$erros['site']?>
+                </div>   
+            </div>    
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="login"> Login </label>
+                <input type="text" class="form-control <?= $erros['login'] ? 'is-invalid': 'is-valid'?>"
+                       id="login" name="login" placeholder="Login"
+                       value="<?= $_POST['login']?>">
+                <div class="invalid-feedback">
+                    <?=$erros['login']?>
+                </div>  
+            </div>
+            <div class="form-group col-md-6">
+                <label for="ip"> IP </label>
+                <input type="text" class="form-control <?= $erros['ip'] ? 'is-invalid': 'is-valid'?>"
+                       id="ip" name="ip" placeholder="IP Fixo"
+                       value="<?= $_POST['ip']?>">
+                <div class="invalid-feedback">
+                    <?=$erros['ip']?>
+                </div>  
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="qtd_filhos"> Quantidade de Filhos </label>
+                <input type="number" class="form-control <?= $erros['qtd_filhos'] ? 'is-invalid': 'is-valid'?>"
+                       id="qtd_filhos" name="qtd_filhos" placeholder="Quantidade de Filhos"
+                       value="<?= $_POST['qtd_filhos']?>">
+                <div class="invalid-feedback">
+                    <?=$erros['qtd_filhos']?>
+                </div>
+            </div>
+            <div class="form-group col-md-6">
+                <label for="salario"> Salário </label>
+                <input type="text" class="form-control <?= $erros['salario'] ? 'is-invalid': 'is-valid'?>"
+                       id="salario" name="salario" placeholder="Salário"
+                       value="<?= $_POST['salario']?>">
+                <div class="invalid-feedback">
+                    <?=$erros['salario']?>
+                </div> 
+            </div>
+        </div>
+        <button class="btn btn-primary btg-lg"> Enviar </button>
+        <button class="btn btn-danger btg-lg" name="limpar_dados" value="0"> Limpar Formulário </button> 
+    </form>
     
-    <?php foreach($erros as $erro):?>
-        <?=""?>
-    <?php endforeach ?>
+    <hr>
 
 <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
