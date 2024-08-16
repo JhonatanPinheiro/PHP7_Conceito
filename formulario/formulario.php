@@ -7,7 +7,7 @@
 <body>
     <div class="title"> Formulário - Cadastro </div>
     <br>
-    
+
     <?php
         if(count($_POST) > 0){
             $erros = [];
@@ -60,6 +60,12 @@
         }
     ?>
 
+    <?php foreach($erros as $erro): ?>
+        <div class="alert alert-danger" role="alert">
+            <?= $erro ?>
+        </div>
+    <?php endforeach?>
+    
     <form action="#" method="post">
         <div class="form-row">
             <div class="form-group col-md-9">
