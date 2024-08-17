@@ -183,6 +183,7 @@
         <ul>
             <li><a href="exercicio.php?dir=db&file=criar_database"> Criando - Banco de Dados  </a></li>
             <li><a href="exercicio.php?dir=db&file=criar_tabela"> Criando - Tabelas  </a></li>
+            <li><a href="exercicio.php?dir=db&file=migrate"> Migrate </a></li>
         </ul>
     </div>
 </nav>
