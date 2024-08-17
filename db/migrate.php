@@ -30,13 +30,13 @@
 
 
         if($resultadoBancoDeDados){
-            echo "Banco de Dados criado com Sucesso!";
+            echo "Banco de Dados criado com Sucesso! <br>";
         }else{
             echo "Error!" . $conexao->error;
         }
 
         if($resultadoTabelas){
-            echo "Tabela Criada com Sucesso!";
+            echo "Tabela Criada com Sucesso! <br>";
         }else{
             echo "Error!" . $conexao->error;
         }
