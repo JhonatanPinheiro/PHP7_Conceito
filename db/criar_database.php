@@ -5,13 +5,13 @@
 </head>
 
 <body>
-    <div class="title"> Formulário - Cadastro </div>
+    <div class="title"> Criar Banco de Dados </div>
     <br><hr>
     <?php
         require_once "conexao.php";
       
         $conexao = novaConexao(NULL);
-        $sql = 'CREATE DATABASE IF NOT EXISTS curso_php';
+        $sql = 'CREATE DATABASE curso_php';
 
         $resultado = $conexao->query($sql);
 
