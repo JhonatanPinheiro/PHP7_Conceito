@@ -178,4 +178,10 @@
             <li><a href="exercicio.php?dir=formulario&file=formulario"> Formulário  </a></li>
         </ul>
     </div>
+    <div class="modulo mod-15">
+        <h3> Módulo 15 - Banco de dados </h3>
+        <ul>
+            <li><a href="exercicio.php?dir=db&file=criar_database"> Banco de Dados  </a></li>
+        </ul>
+    </div>
 </nav>
