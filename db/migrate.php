@@ -41,14 +41,17 @@
 
 
         #INSERT
-        $sql = "INSERT INTO cadastro 
-        (nome,nascimento,email,site,qtd_filhos,salario,`login`)
-        VALUES 
-        ('Mariet','1999-10-30','mariet@gmail.com','https://marietadba.com.br',2,'5000','marietID_456')";
+        for($i=0; $i<10; $i++){
+        
+            $sql = "INSERT INTO cadastro 
+            (nome,nascimento,email,site,qtd_filhos,salario,`login`)
+            VALUES 
+            ('Mariet','1999-10-30','mariet@gmail.com','https://marietadba.com.br',2,'5000','marietID_{$i}')";
 
-        $conexao = novaConexao();
-        $resultadoDoInsert = $conexao->query($sql);
-
+            $conexao = novaConexao();
+            $resultadoDoInsert = $conexao->query($sql);
+        
+        }
 
         #CONDIÇÕES IF E ELSE
         if($resultadoApagarBancoDeDadosExistentes){
