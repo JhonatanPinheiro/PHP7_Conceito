@@ -20,7 +20,9 @@
 
         if($resultado){
             echo "Sucesso! Foi inserido na Base de Dados a informação...";
-        }echo "Erro: " . $conexao->error;
+        }else{
+            echo "Erro: " . $conexao->error;
+        }
 
         $conexao->close();
 
