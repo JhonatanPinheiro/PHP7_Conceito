@@ -9,12 +9,16 @@
     <br><hr>
     <?php
         require_once "conexao.php";
-  
+
         $conexao = novaConexao(NULL);
+        
+        #CREATE DATABASE
         $sql = 'CREATE DATABASE curso_php';
 
         $resultadoBancoDeDados = $conexao->query($sql);
 
+
+        #CREATE TABLE
         $sql = "CREATE TABLE IF NOT EXISTS `cadastro` (
             `id` INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
             `nome` VARCHAR(100) NOT NULL,
@@ -31,6 +35,7 @@
         $resultadoTabelas = $conexao->query($sql);
 
 
+        #INSERT
         $sql = "INSERT INTO cadastro 
         (nome,nascimento,email,site,qtd_filhos,salario,`login`)
         VALUES 
@@ -40,20 +45,21 @@
         $resultadoDoInsert = $conexao->query($sql);
 
 
+        #CONDIÇÕES IF E ELSE
         if($resultadoBancoDeDados){
-            echo "Banco de Dados criado com Sucesso! <br>";
+            echo "<strong>Banco de Dados</strong> criado com Sucesso! <br>";
         }else{
             echo "Error!" . $conexao->error;
         }
 
         if($resultadoTabelas){
-            echo "Tabela Criada com Sucesso! <br>";
+            echo "<strong>Tabela</strong> Criada com Sucesso! <br>";
         }else{
             echo "Error!" . $conexao->error;
         }
 
         if($resultadoDoInsert){
-            echo "Sucesso! Foi inserido os dados na Base de Dados a informação... <br>";
+            echo "Foi <strong>inserido os dados</strong> na Base de Dados com Sucesso! <br>";
         }else{
             echo "Erro: " . $conexao->error;
         }
