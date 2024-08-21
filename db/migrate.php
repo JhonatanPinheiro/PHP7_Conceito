@@ -31,6 +31,15 @@
         $resultadoTabelas = $conexao->query($sql);
 
 
+        $sql = "INSERT INTO cadastro 
+        (nome,nascimento,email,site,qtd_filhos,salario,`login`)
+        VALUES 
+        ('Mariet','1999-10-30','mariet@gmail.com','https://marietadba.com.br',2,'5000','marietID_456')";
+
+        $conexao = novaConexao();
+        $resultadoDoInsert = $conexao->query($sql);
+
+
         if($resultadoBancoDeDados){
             echo "Banco de Dados criado com Sucesso! <br>";
         }else{
@@ -41,6 +50,12 @@
             echo "Tabela Criada com Sucesso! <br>";
         }else{
             echo "Error!" . $conexao->error;
+        }
+
+        if($resultadoDoInsert){
+            echo "Sucesso! Foi inserido os dados na Base de Dados a informação... <br>";
+        }else{
+            echo "Erro: " . $conexao->error;
         }
 
         $conexao->close();
