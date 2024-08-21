@@ -17,7 +17,9 @@
             `email` VARCHAR(100) NOT NULL,
             `site` VARCHAR(100),
             `qtd_filhos` INT,
-            `salario` FLOAT
+            `salario` FLOAT,
+            `login` VARCHAR(100) NOT NULL UNIQUE,
+            `ip` VARCHAR(100)
         )";
       
         $conexao = novaConexao();
