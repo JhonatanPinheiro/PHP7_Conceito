@@ -9,7 +9,7 @@
     <br><hr>
     <?php
         require_once "conexao.php";
-
+        // DDL - Data Definition Lang
         $sql = "CREATE TABLE IF NOT EXISTS `cadastro` (
             `id` INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
             `nome` VARCHAR(100) NOT NULL,
