@@ -47,28 +47,35 @@
 
         #CONDIÇÕES IF E ELSE
         if($resultadoBancoDeDados){
-            echo "<strong>Banco de Dados</strong> criado com Sucesso! <br>";
+            echo "<strong>Banco de Dados</strong> <span class='msg-sucesso'>criado com Sucesso!</span> <br>";
         }else{
-            echo "Error!" . $conexao->error;
+            echo "<span class='msg-error'>Erro: </span>" . $conexao->error;
         }
 
         if($resultadoTabelas){
-            echo "<strong>Tabela</strong> Criada com Sucesso! <br>";
+            echo "<strong>Tabela</strong> <span class='msg-sucesso'>Criada com Sucesso!</span> <br>";
         }else{
-            echo "Error!" . $conexao->error;
+            echo "<span class='msg-error'>Erro: </span>" . $conexao->error;
         }
 
         if($resultadoDoInsert){
-            echo "Foi <strong>inserido os dados</strong> na Base de Dados com Sucesso! <br>";
+            echo "<span class='msg-sucesso'>Foi</span> <strong>inserido os dados</strong><span class='msg-sucesso'> na Base de Dados com Sucesso! </span'><br>";
         }else{
-            echo "Erro: " . $conexao->error;
+            echo "<span class='msg-error'>Erro: </span>" . $conexao->error;
         }
 
         $conexao->close();
-    ?>
+    ?>  
 <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<style>
+    .msg-sucesso{
+        color: green;
+    }
+    .msg-error{
+        color: red;
+    }
+</style>
 </body>
 </html>
 
-<style></style>
