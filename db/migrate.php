@@ -11,12 +11,17 @@
         require_once "conexao.php";
 
         $conexao = novaConexao(NULL);
+
+        #DROP DATABASE IF EXISTS
+        $sql = 'DROP DATABASE IF EXISTS curso_php';
+
+        $resultadoApagarBancoDeDadosExistentes = $conexao->query($sql);
+
         
         #CREATE DATABASE
         $sql = 'CREATE DATABASE curso_php';
 
         $resultadoBancoDeDados = $conexao->query($sql);
-
 
         #CREATE TABLE
         $sql = "CREATE TABLE IF NOT EXISTS `cadastro` (
@@ -46,6 +51,12 @@
 
 
         #CONDIÇÕES IF E ELSE
+        if($resultadoApagarBancoDeDadosExistentes){
+            echo "<strong>Banco de Dados</strong> <span class='msg-sucesso'>Deletado com Sucesso,pois já existia!</span> <br>";
+        }else{
+            echo "<span class='msg-error'>Erro: </span>" . $conexao->error;
+        }
+
         if($resultadoBancoDeDados){
             echo "<strong>Banco de Dados</strong> <span class='msg-sucesso'>criado com Sucesso!</span> <br>";
         }else{
