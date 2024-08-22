@@ -84,6 +84,7 @@
                 print_r($stmt);
                 print_r($params);
                 if($stmt->execute()){
+                    echo "<br><span class='msg-sucesso'>Cadastrado com Sucesso!</span><br>";
                     unset($dados);
                 }
             }
@@ -186,4 +187,10 @@
 </body>
 </html>
 
-<style></style>
+<style>
+    .msg-sucesso{
+        font-weight: 900;
+        font-size: 28px;
+        color: green;
+    }
+</style>
