@@ -81,8 +81,7 @@
 
                 #Preciso definir os tipos premitivos que está no INSERT refente a cada campo. s=string, d=decimal e i=inteiro
                 $stmt->bind_param("ssssidss", ...$params);
-                print_r($stmt);
-                print_r($params);
+                
                 if($stmt->execute()){
                     echo "<br><span class='msg-sucesso'>Cadastrado com Sucesso!</span><br>";
                     unset($dados);
