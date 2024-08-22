@@ -185,6 +185,7 @@
             <li><a href="exercicio.php?dir=db&file=criar_tabela"> Criando - Tabelas  </a></li>
             <li><a href="exercicio.php?dir=db&file=inserir_model1"> Inserir Dados #01 </a></li>
             <li><a href="exercicio.php?dir=db&file=excluir_model1"> Excluir registros no Banco de Dados #01 </a></li>
+            <li><a href="exercicio.php?dir=db&file=excluir_model2"> Excluir registros no Banco de Dados #02 </a></li>
             <li><a href="exercicio.php?dir=db&file=consultar"> SELECT - Consultar Dados no Banco de Dados </a></li>
             <li><a href="exercicio.php?dir=db&file=migrate"> Migrate </a></li>
         </ul>
