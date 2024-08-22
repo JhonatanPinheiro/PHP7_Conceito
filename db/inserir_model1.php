@@ -5,7 +5,7 @@
 </head>
 
 <body>
-    <div class="title"> Inserir dados no Banco de Dados </div>
+    <div class="title"> Inserir dados no Banco de Dados #01</div>
     <br><hr>
     <?php
         require_once "conexao.php";
