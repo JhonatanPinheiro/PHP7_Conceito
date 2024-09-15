@@ -3,5 +3,17 @@ MAMP
 http://localhost/phpMyAdmin5/
 
 Banco de dados
+Servido/IP: localhost OU 127.0.0.1
 User: root
 Senha: root
+
+_____________________
+
+XAMP
+
+http://localhost/phpmyadmin/
+
+Banco de dados
+Servido/IP: localhost OU 127.0.0.1
+User: root
+Senha: 
