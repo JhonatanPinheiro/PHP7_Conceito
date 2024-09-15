@@ -9,6 +9,26 @@
     <br><hr>
     <?php
         require_once "conexao.php";
+        $conexao = novaConexao();
+
+        if($_GET['codigo']){
+            $sql = "SELECT * FROM cadastro WHERE id = ?";
+            $stmt = $conexao->prepare($sql);
+            $stmt->bind_param("i", $GET['codigo']);
+
+            if($stmt->execute()){
+                $resultado = $stmt->get_result();
+                if($resultado->num_rows > 0){
+                    $dados = $resultado->fetch_assoc();
+                
+                    if($dados['nascimento']){
+                        $dt = new DateTime($dados['nascimento']);
+                        $dados['nascimento'] = $dt->format('d/m/Y');
+                    }
+                }
+            }  
+        }
+        
         if(count($_POST) > 0){
             $dados = $_POST;
             $erros = [];
@@ -27,9 +47,9 @@
             }
 
             if(!filter_input(INPUT_POST,"login")){
-                   $erros['login'] = 'PPPOE é obrigatório';
+                    $erros['login'] = 'PPPOE é obrigatório';
             }
-           
+            
             if(!filter_var($dados['email'], FILTER_VALIDATE_EMAIL)){
                     $erros['email'] = 'Email Inválido! <br>';
             }
@@ -47,10 +67,10 @@
                                 ["min_range" => 0, "max_range" => 20]
                             ];
             if(!filter_var($dados['qtd_filhos'],FILTER_VALIDATE_INT,$filhosConfig) && $dados['qtd_filhos'] != 0){
-               $erros['qtd_filhos'] = 'Quantidade de Filhos Inválida! <br>';
+                $erros['qtd_filhos'] = 'Quantidade de Filhos Inválida! <br>';
             }
 
- 
+
             $salarioConfig = ['options' => 
                                 ['decimal' => ',']
                             ];
@@ -60,12 +80,10 @@
             }
 
             if(!count($erros)){
-                require_once "conexao.php";
 
                 $sql = "INSERT INTO `cadastro` (`nome`, `nascimento`, `email`, `site`, `qtd_filhos`, `salario`, `login`, `ip`) 
                         VALUES (?,?,?,?,?,?,?,?)";
                 
-                $conexao = novaConexao();
                 $stmt = $conexao->prepare($sql);
 
                 $params = [
@@ -95,6 +113,21 @@
             <?= $erro ?>
         </div>
     <?php endforeach?>
+
+    <form action="/exercicio.php" method="get">
+        <input type="hidden" name="dir" value="db">
+        <input type="hidden" name="file" value="alterar">
+        <div class="form-group row">
+            <div class="col-sm-2">
+                <input type="number" name="codigo" class="form-control" value="<?=$_GET['codigo']?>" placeholder="Código para consultar">
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-sm-2">
+                <button class="btn btn-success mb-2">Consultar</button>
+            </div>
+        </div>
+    </form>
     
     <form action="#" method="post">
         <div class="form-row">
