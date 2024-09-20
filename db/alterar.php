@@ -14,7 +14,7 @@
         if($_GET['codigo']){
             $sql = "SELECT * FROM cadastro WHERE id = ?";
             $stmt = $conexao->prepare($sql);
-            $stmt->bind_param("i", $GET['codigo']);
+            $stmt->bind_param("i", $_GET['codigo']);
 
             if($stmt->execute()){
                 $resultado = $stmt->get_result();
