@@ -74,7 +74,7 @@
                     $dados['email'],
                     $dados['site'],
                     $dados['qtd_filhos'],
-                    $dados['salario'],
+                    $dados['salario'] ? str_replace(',','.', $dados['salario']) : NULL,
                     $dados['login'],
                     $dados['ip'],
                 ];

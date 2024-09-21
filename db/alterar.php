@@ -25,6 +25,10 @@
                         $dt = new DateTime($dados['nascimento']);
                         $dados['nascimento'] = $dt->format('d/m/Y');
                     }
+                    
+                    if($dados['salario']){
+                        $dados['salario'] = str_replace('.',',', $dados['salario']);
+                    }
                 }
             }  
         }
@@ -81,8 +85,15 @@
 
             if(!count($erros)){
 
-                $sql = "INSERT INTO `cadastro` (`nome`, `nascimento`, `email`, `site`, `qtd_filhos`, `salario`, `login`, `ip`) 
-                        VALUES (?,?,?,?,?,?,?,?)";
+                $sql = "UPDATE `cadastro` SET `nome` = ?, 
+                                              `nascimento` = ?,
+                                               `email` = ?, 
+                                               `site` = ?,
+                                               `qtd_filhos` = ?, 
+                                               `salario` = ?, 
+                                               `login` = ?,
+                                               `ip` = ? 
+                        WHERE id = ?";
                 
                 $stmt = $conexao->prepare($sql);
 
@@ -92,16 +103,17 @@
                     $dados['email'],
                     $dados['site'],
                     $dados['qtd_filhos'],
-                    $dados['salario'],
+                    $dados['salario'] ? str_replace(',','.', $dados['salario']) : NULL,
                     $dados['login'],
                     $dados['ip'],
+                    $dados['id'],
                 ];
 
                 #Preciso definir os tipos premitivos que está no INSERT refente a cada campo. s=string, d=decimal e i=inteiro
-                $stmt->bind_param("ssssidss", ...$params);
+                $stmt->bind_param("ssssidssi", ...$params);
                 
                 if($stmt->execute()){
-                    echo "<br><span class='msg-sucesso'>Cadastrado com Sucesso!</span><br>";
+                    echo "<br><span class='msg-sucesso'>Registro de código: $dados[id] atualizado com Sucesso!</span><br>";  
                     unset($dados);
                 }
             }
@@ -130,6 +142,7 @@
     </form>
     
     <form action="#" method="post">
+        <input type="hidden" name="id" value="<?= $dados['id']?>">
         <div class="form-row">
             <div class="form-group col-md-9">
                 <label for="nome"> Nome </label>
@@ -210,7 +223,7 @@
                 </div> 
             </div>
         </div>
-        <button class="btn btn-primary btg-lg"> Enviar </button>
+        <button class="btn btn-success btg-lg"> Atualizar Dados </button>
         <button class="btn btn-danger btg-lg" name="limpar_dados" value="0"> Limpar Formulário </button> 
     </form>
 
