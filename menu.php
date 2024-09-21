@@ -190,6 +190,8 @@
             <li><a href="exercicio.php?dir=db&file=consultar"> SELECT - Consultar Dados no Banco de Dados </a></li>
             <li><a href="exercicio.php?dir=db&file=alterar"> Alterar - Dados no Banco de Dados </a></li>
             <li><a href="exercicio.php?dir=db&file=alterarTeste"> Alterar Teste - Dados no Banco de Dados </a></li>
+            <li><a href="exercicio.php?dir=db&file=inserir_pdo">| PDO | Inserir Dados </a></li>
+                
             <li><a href="exercicio.php?dir=db&file=migrate"> Migrate </a></li>
         </ul>
     </div>
