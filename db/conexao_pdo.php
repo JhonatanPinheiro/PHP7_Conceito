@@ -1,6 +1,6 @@
 <?php
 
-function novaConexao($banco = 'curso.php'){
+function novaConexao($banco = 'curso_php'){
     $servidor = 'localhost:3306';
     $usuario = 'root';
     $senha = 'root';
