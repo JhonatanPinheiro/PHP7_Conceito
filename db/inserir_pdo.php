@@ -16,7 +16,18 @@
         $conexao = novaConexao();
 
         #Esse print_r usando a função get_class_methods usamos para obter uma lista de todos os métodos públicos de uma classe. Ela retorna um array com os nomes dos métodos que podem ser chamados em instâncias dessa classe. Nesse nosso caso iremos conseguir visualizar qual foi o último ID que foi inserido, código do erros, etc...
-        print_r(get_class_methods($conexao));
+        #print_r(get_class_methods($conexao));
+
+        if($conexao->exec($sql)){
+            $id = $conexao->lastInsertId();
+            #print_r($id);
+            echo "<p>
+                     <span>Código: {$id} </span> - <span class='msg-sucesso'> Novo usuário cadastrado com sucesso! </span>
+                 </p>";
+        }else{
+            echo $conexao->errorCode();
+            print_r($conexao->errorInfo());
+        }
 
     ?>
 <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
@@ -24,5 +35,10 @@
 </body>
 </html>
 <style>
+    .msg-sucesso{
+        font-weight: 900;
+        font-size: 28px;
+        color: green;
+    }
 
 </style>
