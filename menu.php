@@ -193,6 +193,7 @@
             <li><a href="exercicio.php?dir=db&file=inserir_pdo">| PDO | Inserir Dados </a></li>   
             <li><a href="exercicio.php?dir=db&file=consultar_pdo">| PDO | Consultar Dados </a></li>
             <li><a href="exercicio.php?dir=db&file=excluir_pdo">| PDO | Excluir Dados </a></li>
+            <li><a href="exercicio.php?dir=db&file=alterar_pdo">| PDO | Alterar Dados </a></li>
                 
             <li><a href="exercicio.php?dir=db&file=migrate"> Migrate </a></li>
         </ul>
