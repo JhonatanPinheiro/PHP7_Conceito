@@ -181,6 +181,7 @@
     <div class="modulo mod-15">
         <h3> Módulo 15 - Banco de dados </h3>
         <ul>
+            <li><a href="exercicio.php?dir=db&file=conexao"> Configurando Conexao  </a></li>
             <li><a href="exercicio.php?dir=db&file=criar_database"> Criando - Banco de Dados  </a></li>
             <li><a href="exercicio.php?dir=db&file=criar_tabela"> Criando - Tabelas  </a></li>
             <li><a href="exercicio.php?dir=db&file=inserir_model1"> Inserir Dados #01 </a></li>
@@ -190,6 +191,7 @@
             <li><a href="exercicio.php?dir=db&file=consultar"> SELECT - Consultar Dados no Banco de Dados </a></li>
             <li><a href="exercicio.php?dir=db&file=alterar"> Alterar - Dados no Banco de Dados </a></li>
             <li><a href="exercicio.php?dir=db&file=alterarTeste"> Alterar Teste - Dados no Banco de Dados </a></li>
+            <li><a href="exercicio.php?dir=db&file=conexao_pdo"> Configurando Conexão com PDO  </a></li>
             <li><a href="exercicio.php?dir=db&file=inserir_pdo">| PDO | Inserir Dados </a></li>   
             <li><a href="exercicio.php?dir=db&file=consultar_pdo">| PDO | Consultar Dados </a></li>
             <li><a href="exercicio.php?dir=db&file=excluir_pdo">| PDO | Excluir Dados </a></li>
